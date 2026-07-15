@@ -1,0 +1,3301 @@
+:: StoryTitle
+Game21
+
+
+:: StoryData
+{
+  "ifid": "D6A2DA94-1392-4A3B-9529-CE983EA9C5CF",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "Askby Marketplace",
+  "tag-colors": {
+    "widget": "red",
+    "nobr": "orange",
+    "dialog": "yellow"
+  },
+  "zoom": 0.6
+}
+
+
+:: Aidan_Hoxea {"position":"1000,1875","size":"100,100"}
+He smiles as if he was recollecting memories and responds to you by saying that when he was driven from his duchy and forced into exile he met with his former companions and allies many are different races. Deciding not to remain in the Rokian Empire, Captain Ottile suggested they sail southwesr towards the unknown, hoping to find a new land where they could lay low. They soon found the island Hoxea, a large island filed with resources ranging from lumber to ores and gemstones. When they settled they all agreed too not discriminate based on religion and culture.
+
+Deciding to continue the conversation you ask about...
+
+[[His sisters and possibly their motives|Aidan_sister]]
+[[His time as a mercenary|Aidan_merc]]
+
+
+:: Aidan_claims {"position":"850,2025","size":"100,100"}
+Prince Aidan thinks for a moment before he looks back to you saying that, he has no intention of coming back to the Duchy of Diamond Bay to rule as a duke of an empire that is plagued by internal conflicts. Howeever he states that he will return to the duchy not to rule but for answers as to why his sisters had deposed him as he doesn't want theories but rather answers.
+
+Deciding to continue the conversation you ask about...
+
+[[Why Hoxea is more diverse and more tolerant than other nations|Aidan_Hoxea]]
+
+
+:: Aidan_lore {"position":"975,1700","size":"100,100"}
+Prince Aidan looks annoyed at first before he says that he was originally a duke in the Rokian Empire before he was ousted from his seat at Diamond Point by his three sisters. He looks a bit saddened after mentioning his sisters he continues further that he doesn't know why his sisters ousted him.
+
+Deciding to know more you ask about...
+
+[[His sisters and possibly their motives|Aidan_sister]]
+[[Why Hoxea is more diverse and more tolerant than other nations|Aidan_Hoxea]]
+
+
+:: Aidan_merc {"position":"975,2050","size":"100,100"}
+Prince Aidan laughs and explains that when he was fifteen years old under preassure from his father he was sent to the far north in Mica county to meet Count Morris the Seventh, an old friend of his father to be further educated in the ways of war as his father saw his potential in war. Once he arrived in Duravich the seat of the Counts of Mica he was greeted warmly and trained under the Count of Mica and even participated in the Seventh Rokian-Sernian war. His face soon lost the smile and said that during the Battle of Vetenets Fields, We we're ambushed by some Zra orcs the Sernians had hired the orcs served as a shock unit and soon surrounded by Sernian footmen in the front and cavalry in the rear Count Morris was wounded and I rallied the men to make a mad charge to kill their leader, Sir Mark of Blacksand. The charge worked we killed Sir Mark and routed the enemy but at a heavy cost.
+
+Deciding not to be awkward you ask the Prince to...
+
+[[Continue the story|Aidan_merc2]]
+
+
+:: Aidan_merc2 {"position":"1175,1900","size":"100,100"}
+The prince looked at you for a moment before breaking the silence, he continued his story, After the war I joined many different mercenary companies and fought with many leaders. Many of the mercenary companies he once fought with joined his court here in Askby, becoming the first inhabitants of Hoxea. He points to one of the guards  saying that one is a Rethian a highlander to be precise. This caught you off guard as what you've heard from travelers Rethians are loyal to their own race so to see one standing guard for a Ronian duke now prince was impressive to say the least.
+
+Thinking about his story you...
+
+[[Thank the prince for his time and excuse yourself|
+[[Ask who joined the Prince's court|Aidan_relations]]
+
+
+:: Aidan_relations {"position":"1100,1775","size":"100,100"}
+He laughs and states that the number of mercenary companies that joined him is numerous so much so he listed down who joined him and their new roles in his court
+<ul>
+<li>Captain Ottilie leader of the Iron Hulls Mercenary company as the Admiral of Hoxea</li>
+<li>Captain Olivia leader of the Eighth Handcannoners</li>
+<li>Lady Kali leader of the Rohs Knights as head of medicine</li>
+<li>Lady Dani an expert in glyph magic</li>
+<li>Lady Emma an expert in dark magic</li>
+<li>Lady Lucy an expert in summoning demons to aid Aidan</li>
+<li>Captain Elina a finnancer</li>
+<li>Alice captain of the First Scouts Militia</li>
+<li>Dora from the Gifted Blades</li>
+<li>Marian from the house Modercus</li>
+<li>Lia a priestess from the west</li>
+<li>Karoline from the Ninty-Eighth Legion</li>
+<li>Beatrice a lady with the capability to make better prosthetics</li>
+<li>Murata and Lisa sisters who wield arcane magics</li>
+<li>Lady Reine a proficient knight in her own right leading the Isles Swords</li>
+<li>Lady Yuki leader of the Frost Foxes</li>
+<li>Sella leader of a group of rebels now Head of Agriculture</li>
+<li>Cora leader of the Valiant Dragons</li>
+</ul>
+
+Thinking about the many mercenaries that joined you...
+
+[[Excuse yourself and leave the palace|Askby]]
+
+
+:: Aidan_sister {"position":"850,1850","size":"100,100"}
+His brow furrows and his jaw tightens as he recounts his family's history. He soon collects himself and states that he has an older sister and a younger sister. He said his older sister named Eliza was trained to be the next duchess since in the Rokian Empire it was not unheard of that an only daughter or eldest daughter would take the title. He continues, explaining that his younger sister Roza excels in combat and leadership. The prince thinks for a moment and states that Eliza may have deposed him as she sees the duchy of Diamond Bay as her birthright, while Roza assisted to gain personal glory as she was shunned constantly by their parents. Turning to you, he states that whatever the case may be or their reasons it was still unjust of them to depose him. He soon looked towards the eastern window and remarked that he was going to abdicate the duchy to Eliza in six months time anyway since he believes he couldn't be a good duke.
+
+Looking at the prince you decide too ask...
+
+[[Why Hoxea is more diverse and more tolerant than other nations|Aidan_Hoxea]]
+[[If he has any plans to reclaim the Duchy of Diamond Bay|Aidan_claims]]
+
+
+:: Ammo {"position":"600,625","size":"100,100"}
+<<set setup.ammo = new Map([
+    ["Improvised Arrow", {damage: 2}],
+    ["Arrow", {damage: 5}],
+    ["Barbed Arrow", {damage: 7}],
+    ["Bodkin Arrow", {damage: 9}],
+    ["Broadhead Arrow", {damage: 8}],
+    ["Fire Basket Arrow", {damage: 9}],
+    ["Swallowtail Arrow", {damage: 10}],
+    ["Sling Stone", {damage: 3}],
+    ["Sling-Bullet", {damage: 5}],
+	["Stone-Tipped Bolt", {damage: 5}],
+    ["Regular Bolt", {damage: 7}],
+    ["Paper Cartridge", {damage: 10}]
+])>>
+
+
+:: AmmoSelection [widget nobr] {"position":"400,300","size":"100,100"}
+<<widget "ammoSelector">>
+
+	<<if $backpack.count($ammoSlot) == 0>>
+    <<set $ammoSlot = null>>
+	<<elseif $ammoSlot != null>>
+	You are currently using $ammoSlot 
+	and you have <<print $backpack.count($ammoSlot)>> rounds left
+	<</if>>
+    
+    <<if $player.tag == "bow">>
+    	<<set _ammotypes = 0>>
+        
+        <<if $backpack.has("Improvised Arrow")>>
+        <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Improvised Arrow">>
+                <<set $ammoSlot = "Improvised Arrow">>
+                <<run UI.alert("You have chosen Improvised Arrow")>>
+            <</button>>
+        <</if>>
+		
+        <<if $backpack.has("Arrow")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Arrow">>
+                <<set $ammoSlot = "Arrow">>
+                <<run UI.alert("You have chosen Arrow")>>
+            <</button>>
+        <</if>>
+        
+        <<if $backpack.has("Barbed Arrow")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Barbed Arrow">>
+                <<set $ammoSlot = "Barbed Arrow">>
+                <<run UI.alert("You have chosen Barbed Arrow")>>
+            <</button>>
+        <</if>>
+
+        <<if $backpack.has("Bodkin Arrow")>>
+        <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Bodkin Arrow">>
+                <<set $ammoSlot = "Bodkin Arrow">>
+                <<run UI.alert("You have chosen Bodkin Arrow")>>
+            <</button>>
+        <</if>>
+
+        <<if $backpack.has("Broadhead Arrow")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Broadhead Arrow">>
+                <<set $ammoSlot = "Broadhead Arrow">>
+                <<run UI.alert("You have chosen Broadhead Arrow")>>
+            <</button>>
+        <</if>>
+
+        <<if $backpack.has("Fire Basket Arrow")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Fire Basket Arrow">>
+                <<set $ammoSlot = "Fire Basket Arrow">>
+                <<run UI.alert("You have chosen Fire Basket Arrow")>>
+            <</button>>
+        <</if>>
+
+        <<if $backpack.has("Swallowtail Arrow")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Swallowtail Arrow">>
+                <<set $ammoSlot = "Swallowtail Arrow">>
+                <<run UI.alert("You have chosen Swallowtail Arrow")>>
+            <</button>>
+        <</if>>
+        
+        <<if _ammotypes == 0>>
+		You have no available ammo
+		<</if>>
+
+    <<elseif $player.tag == "sling">>
+    	<<set _ammotypes = 0>>
+    
+        <<if $backpack.has("Sling Stone")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Sling Stone">>
+                <<set $ammoSlot = "Sling Stone">>
+                <<run UI.alert("You have chosen Sling Stone")>>
+            <</button>>
+        <</if>>
+
+        <<if $backpack.has("Sling-Bullet")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Sling-Bullet">>
+                <<set $ammoSlot = "Sling-Bullet">>
+                <<run UI.alert("You have chosen Sling-Bullet")>>
+            <</button>>
+        <</if>>
+        
+        <<if _ammotypes == 0>>
+		You have no available ammo
+		<</if>>
+
+    <<elseif $player.tag == "crossbow">>
+    	<<set _ammotypes = 0>>
+        
+        <<if $backpack.has("Stone-Tipped Bolt")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Stone-Tipped Bolt">>
+                <<set $ammoSlot = "Stone-Tipped Bolt">>
+                <<run UI.alert("You have chosen Stone-Tipped Bolt")>>
+            <</button>>
+        <</if>>
+		
+        <<if $backpack.has("Regular Bolt")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Regular Bolt">>
+                <<set $ammoSlot = "Regular Bolt">>
+                <<run UI.alert("You have chosen Regular Bolt")>>
+            <</button>>
+        <</if>>
+        
+	    <<if _ammotypes == 0>>
+		You have no available ammo
+		<</if>>
+
+    <<elseif $player.tag == "firearm">>
+    	<<set _ammotypes = 0>>
+        
+        <<if $backpack.has("Paper Cartridge")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Paper Cartridge">>
+                <<set $ammoSlot = "Paper Cartridge">>
+                <<run UI.alert("You have chosen Paper Cartridge")>>
+            <</button>>
+        <</if>>
+        
+        <<if _ammotypes == 0>>
+		You have no available ammo
+		<</if>>
+        
+    <<elseif $player.tag == "hand cannon">>
+    	<<set _ammotypes = 0>>
+        
+        <<if $backpack.has("Cannon Cartridge")>>
+         <<set _ammotypes = _ammotypes + 1>>
+            <<button "Use Paper Cartridge">>
+                <<set $ammoSlot = "Paper Cartridge">>
+                <<run UI.alert("You have chosen Paper Cartridge")>>
+            <</button>>
+        <</if>>
+        
+        <<if _ammotypes == 0>>
+		You have no available ammo
+		<</if>>
+        
+	<<else>>
+    You are not using a ranged weapon
+	<<set $ammoSlot = null>>
+    <</if>>
+<</widget>>
+
+
+:: Arcane {"position":"650,350","size":"100,100"}
+<<consumable "Arcane Bolt">>
+<<set $spellpwr = 5>>
+<<set $spltype = "arcane">>
+<<set $lastitem to "Arcane Bolt">>
+<<dmdspell>>
+<<description>>
+    A basic arcane spell that fires a bolt of pure energy.
+<</consumable>>
+
+
+:: Askby {"position":"1250,1150","size":"100,100"}
+You enter the newly built captial of the Hoxian Principality. You see many different races and cultures walk by from Lynar bowyers, Rethian highlanders, and even some Rarnul weavers. You notice a map of some major villages on a nearby board and you take note of some of the settlements soon you find yourself in the town square
+
+Deciding to not look out of place you decide too...
+
+[[Head to the Port|Askby Port]]
+[[Visit the Prince of Hoxea|Askby Palace]]
+[[Head to the markets|Askby Marketplace]]
+[[Head to the Workshop|Askby Workshop]]
+[[Head to the training field|Training-Askby]]
+[[Head towards Askby University for knowledge|Askby University Gate]]
+[[Head towards the temple grounds to ask a boon from the gods|Askby temple]]
+[[Head towards some of the villages out in the countryside|Askby vil1]]
+[[Ask a ferryman to ferry you to Xohar|Xohar]]
+[[Ask a ferryman to ferry you to Druhar|Druhar]]
+<<set $stat ++>>
+<<print $cur_stamina>>
+
+
+:: Askby Library {"position":"575,1600","size":"100,100"}
+The guard soon gives you directions to navigate the large university soon enough you find the entrance to the library and you pass through it's doors
+
+You approach the front desk of the library, you notice a sign stating that all non-students are not permitted to enter the main university grounds. Soon, you are greeted by the librarian, a man named Taylor, who inquires about the book you are seeking.
+
+You soon answer..
+
+[[For a book that deatils all the races of Zernia|Zernia Races]]
+[[For a book on the history of the United Kingdom of Sernia|Sernia_lore]]
+[[For nothing as you were mearly admiring the library's ecpanse|Askby University Gate]]
+
+
+:: Askby Marketplace {"position":"275,1375","size":"100,100"}
+Wandering towards the marketplace, you are greeted by a vibrant array of items being sold. Ornate blades and bows catch your eye, alongside bolts of cloth and silk, and an impressive selection of armor ranging from mail to plate. Artisans are busy at their stalls, offering all manner of goods: clay figures, porcelain, metalware, and clothes made from furs and silk. Specialist artisans showcase their unique creations, adding to the marketplace's diversity.
+
+As you take in the bustling scene, you realize that the rumors of Askby being a capital where one can find anything are not mere myths or rumors, but rather an undeniable fact.
+
+[[Go to the town square|Askby]]
+[[Buy Items|Buy]]
+[[Buy Weapons|Buy_weapon]]
+[[Buy Armor|Buy_armor]]
+[[Buy Shields|Buy_shield]]
+[[Buy Supplies|Buy_heal]]
+[[Sell Items|Sell]]
+[[Sell Weapons|Sell-W]]
+[[Sell Armor|Sell-A]]
+[[Sell Consumables|Sell-P]]
+[[Sell Shields|Sell-S]]
+[[Ask the guild master for a job|Askby guild]]
+<<replenish>>
+
+
+<<pickup $backpack "Javelin" 5>>
+<<pickup $backpack "bandage" 2>>
+<<set $max_stamina to ($player.agility * 2)>>
+
+<<print $player.agility>>
+<<print $player.tag>>
+<<print $player.isRanged>>
+<<print $weaponSlot>>
+<<print $ammoSlot>>
+
+
+:: Askby Palace {"position":"950,1550","size":"100,100"}
+Entering the relatively new palace of Askby it's decorated with lamps and stained glass windows. You also notice many different races standing guard from Ronians to Rethians armed with their respective culture's best equipment. You're soon approached by Prince Aidan and asked why you wish to see him.
+
+Not wishing to waste a monarch's time you...
+[[Respond "with nothing" and go to the town square|Askby]]
+[[Ask why some of the townsfolk call him the "Righteous Duke"|Aidan_lore]]
+
+
+
+:: Askby Port {"position":"1350,725","size":"100,100"}
+<<set $lastport to $curpassage>>/
+Finding yourself at the docks of Askby the smell of fish fills your nose as you walk past fishermen selling their hauls, travellers preparing to leave the island, and some soldiers preparing to go out on patrol.
+
+Deciding not stick out of place you decide too...
+
+[[Go to the town square|Askby]]
+[[Ask Captain Ottilie for a job|Captain Ottilie]]
+[[Ask the Harbour Master to ferry you to a different port|Harbour Master]]
+
+
+:: Askby Spell {"position":"625,1750","size":"100,100"}
+While heading inside the room you spot the guard waiting on a chair presumably waiting for you to finish to escort you back to the university gate, Professor Jac states that you need your own materials to craft the spell itself and that he will only teach you how to control said spell and nothing more since the university doesn't hand out freebies,
+
+You...
+
+[[Thank professor Jac for his time and ask the guard to escort you back to the gate|Askby University Gate]]
+[[Ask the professor for assistance in creating a spell|Spellcraft]]
+
+<<pickup $backpack "mystic ink" 5>>
+<<pickup $backpack "enchanted paper" 1>>
+
+
+:: Askby Spell-1 {"position":"775,1525","size":"100,100"}
+The guard asks for a moment and tells you to wait for a bit while he confirms if you are allowed to meet one of the senior professors for spell crafting and teaching, a few moments later the same guard returns and states that he will escort you to Senior Professor Jac, a lively man who's passion was to teach and craft spells.
+
+You pass by some students both young mages and scholars who glance at you but pay no mind for you were accompanied by a guard, soon you find yourself in front of a door the guard knocks twice and soon a man presumablely Professor Jac appears and invites you inside.
+
+[[You accept the invation and head in the room|Askby Spell]]
+
+
+:: Askby University Gate {"position":"900,1275","size":"100,100"}
+Finding yourself at the University of Askby, a relatively new institution and one of only seven universities in Zerna granted the prestigious status of "University," you observe promising young mages entering the Wizard's Wing while regular students head towards the Scholar's Wing.
+
+One of the guardsmen spots you and asks you why you are observing the university. The guard was more heavily armored than most others around Askby. He wore partial plate armor and carried a halberd, with a sword and steel buckler as secondary weapons.
+
+Deciding not to fight the University authorities...
+
+[[You state that you were merely admiring the university and leave|Askby]]
+[[You answer that you were looking for the university's library|Askby Library]]
+[[You answer that you were looking for a place to craft spells|Askby Spell-1]]
+
+
+:: Askby Workshop {"position":"375,1450","size":"100,100"}
+Entering the workshop, you're greeted by the foreman, who gives you a nod of acknowledgment. "Feel free to use the tables to refine and craft items from your journey," he says. The workshop is bustling with activity, filled with the sounds of hammers, saws, and the hum of conversation among artisans.
+
+You also notice some engineers  are working on a project involving black powder from the schematics you can see it involves filling the powder in a cylinder with a hole in the bottom for the energy to escape propelling it forward and a cone at the other end filled with more powder to perhaps cause fires or an explosion. you also see a design for a carriage to launch these devices from safely.
+
+[[Craft consumables|Craft]]
+[[Refine items|Refine]]
+[[Head back to the town square|Askby]]
+
+
+:: Askby crim {"position":"400,1025","size":"100,100"}
+Hess further elucidates on the origins of the principality's prosperity, recounting the pivotal role played by the gold Aidan secured when he narrowly escaped betrayal. Instead of hoarding it for personal gain, Aidan invested the gold wisely, channeling it into infrastructure projects such as roads and bolstering local healthcare services. This strategic allocation significantly improved the living standards of the families of mercenaries who chose to follow Aidan, eradicating the need for banditry as a means of survival.
+
+Moreover, Aidan's decisive action in quelling an infamous pirate threat five years ago resonates in the collective memory of the region. The resounding defeat inflicted upon the great pirate fleet sent shockwaves through the maritime underworld, dissuading many pirates from venturing into Hoxea's waters out of fear of reprisal.
+
+While murmurs regarding the taxes levied by Aidan persist among peasants and merchants, there's a prevailing acknowledgment that the taxation serves a noble cause. Aidan's court ensures that the majority of tax revenue is reinvested into the principality, increasing the quality of life for its citizens through various developmental initiatives. Consequently, while some may grumble, few can dispute that Aidan's leadership primarily aims to enrich the lives of his people rather than lining his own pockets.
+
+[[Thank the guild master for his time and leave|Askby]]
+
+
+:: Askby guild {"position":"500,1150","size":"100,100"}
+You soon find the guild master for Askby, a man appearing to be in his early sixties, clad in attire befitting a seasoned merchant who has traversed many trade routes. Introducing himself as Hess, the guild master provides an insight into the economic landscape of the Principality of Hoxea.
+
+Hess elaborates on the principality's economic stronghold, centered around Askby, the largest and sole city, serving as both the economic hub and the capital. The region is fortified with small forts strategically positioned along the roads and coastlines, while quaint villages speckle the surrounding areas. Notably, a substantial underground citadel within Mt. Cyra serves as a bastion for storage and refuge in times of external threat, a testament to the principality's preparedness.
+
+Curious about potential trade opportunities, you inquire about goods in demand within the Principality. Hess explains that, owing to the reforms instituted by Prince Aidan during the principality's inception, Hoxea has achieved a remarkable degree of self-sufficiency. The fertile lands yield plentiful agricultural produce, supplemented by the cultivation facilitated by greenhouses. Additionally, the abundant mineral and gem deposits within Mt. Cyra fuel trade ventures, attracting skilled artisans from across the realm.
+
+However, Hess reveals the need for exotic goods, expressing a willingness to pay a premium for rarities such as ivory, pearls, Brilscales, and other coveted commodities, which would enrich the principality's trade.
+
+Wishing to know more about Hoxea you ask..
+
+[[How are bandits and pirates in the area?|Askby crim]]
+[[Thank the guild master for his time and leave|Askby]]
+
+
+
+:: Askby temple {"position":"1200,925","size":"100,100"}
+Entering the Grand Temple of Askby, you are greeted by the sight of altars and statues dedicated to a myriad of gods and goddesses. The deities range from the widely known and revered to those shunned by many. Among them, you even notice an altar dedicated to the god of a new religion from the west, whose followers claim he is the sole god.
+
+You decide too..
+
+[[Ask a blessing from
+[[Leave the temple|Askby]]
+
+
+:: Askby vil {"position":"1525,1100","size":"100,100"}
+The mining village of Lazurit, the sight of people entering the mines catches your attention. You see many different people walking about from Rui to Rethian and many other cultures and races. You see people hauling Lapis from the mines and gemstones and refining it. You also notice some artisans purchasing Lapis to make into the finest blue pigment one can make. You spot some local militia as well wearing a mix of mail and gambeson wielding a spear and a kite shield with the symbol of Hoxea blazoned on it.
+
+You decide to...
+
+<<link "Work in the mines in exchange for some of the stones or gems">>
+	<<if $cur_stamina >= 3>>
+    <<work_mine>>
+     <<else>>
+    <<run UI.alert("You are too tired to work! (You need 3 Stamina)")>>
+	<</if>>
+<</link>>
+[[Head west to Krasna|Askby vil1]]
+[[Head towards Lopar|Lopar]]
+
+
+:: Askby vil1 {"position":"1425,1000","size":"100,100"}
+The large farming settlement of Krasna,  marked on local maps, stands as a breadbasket Hoxea. As you approach, the sheer scale of the settlement becomes apparent. Vast orchards brimming with fruit trees and glass houses sheltering diverse crops dot the landscape, testament to the settlement’s agricultural prowess.
+
+On the rolling hills, oxen and their handlers plow the fields, preparing the fertile earth for planting. Higher up, on the steeper slopes, industrious Biram Dwarves carve terraces into the hillsides, maximizing the available land for cultivation. Nearby, you notice mages employing their skills to freeze freshly harvested goods, preserving them for longer journeys and ensuring a steady supply of fresh produce for distant markets.
+
+As you draw closer to Krasna, the presence of a well-armed military force becomes evident. Soldiers clad in more elaborate armor than traditional guards patrol the area, their imposing polearms gleaming in the sunlight. Archers stand ready with bows, their watchful eyes scanning the horizon. Mounted soldiers, equipped with lighter armor and armed with spears, ride across the fields, prepared to swiftly engage any threats. This formidable force is clearly tasked with safeguarding Hoxea’s breadbasket and the surrounding isles, ensuring the continued flow of essential resources.
+
+Entering the heart of Krasna, the settlement transitions into a vibrant small town. The air is filled with the rich, comforting scents of agriculture and food production. You see residents drying fruits and vegetables, millers diligently turning grains into flour, and bakers crafting loaves of bread and delicious pies. People are busy sugaring fruits to preserve them, transforming them into sweet jellies, and pickling vegetables for longer shelf life. Stalls and shops display an array of preserved goods, ready for trade and consumption.
+
+Amidst this bustling activity, vendors offer a variety of locally produced alcoholic beverages. Beer, wine, and mead made from the honey of local bees are prominently featured, showcasing the region’s diverse and rich culinary traditions. The settlement of Krasna is not just a center of agricultural production; it is a thriving community where the fruits of the land are transformed into a myriad of products that sustain and delight the people of Hoxea.
+
+You decide to...
+
+<<link  "Work the fields in exchange for some of the crops">>
+	<<if $cur_stamina >= 3>>
+    <<work_field>>
+    <<else>>
+    <<run UI.alert("You are too tired to work! (You need 3 Stamina)")>>
+	<</if>>
+<</link>>
+[[Head east to the mining settlement of Lazurit|Askby vil]]
+[[Head back to Askby|Askby]]
+
+
+:: Buy [nobr] {"position":"25,1150","size":"100,100"}
+<h2>Items for sale:</h2>
+<div class="shopping-interface">
+<<for _item, _amount range $shop.table>>
+    <<buylink _item _amount>>
+<</for>>
+</div>
+<br><br>
+[[Go back|Askby Marketplace]]
+
+
+:: Buy_armor [nobr] {"position":"25,1350","size":"100,100"}
+<h2>Items for sale:</h2>
+<div class="shopping-interface">
+<<for _item, _amount range $shoparmor.table>>
+    <<buylinkarmor _item _amount>>
+<</for>>
+</div>
+<br><br>
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: Buy_heal [nobr] {"position":"25,1450","size":"100,100"}
+<h2>Items for sale:</h2>
+<div class="shopping-interface">
+<<for _item, _amount range $shopheal.table>>
+    <<buylinkheals _item _amount>>
+<</for>>
+</div>
+<br><br>
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: Buy_shield [nobr] {"position":"25,1550","size":"100,100"}
+<h2>Items for sale:</h2>
+<div class="shopping-interface">
+<<for _item, _amount range $shopshield.table>>
+    <<buylinkshield _item _amount>>
+<</for>>
+</div>
+<br><br>
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: Buy_weapon [nobr] {"position":"25,1250","size":"100,100"}
+<h2>Items for sale:</h2>
+<div class="shopping-interface">
+<<for _item, _amount range $shopweapon.table>>
+    <<buylinkweapon _item _amount>>
+<</for>>
+</div>
+<br><br>
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: Captain Ottilie {"position":"1125,775","size":"100,100"}
+You meet Captain Ottilie near her ship, it's a massive sail ship decked out with cannons and you see sailors loading supplies for future voyages and unloading some goods and even some treasure.
+
+She asks why you need to meet her. deciding not to waste her time...
+
+[[You excuse yourself and head outside|Askby Port]]
+[[You ask her is she needs any help
+
+
+:: Combat [widget nobr] {"position":"300,400","size":"100,100"}
+<<widget "attack">>
+	<<set _msg = "">>
+
+	<<if $player.isRanged is true and $ammoSlot is not null>>
+		<<Ranged>>
+	<<else>>
+    <<set _msg = "You don't have ammo selected">>
+    <<run UI.alert(_msg)>>
+	<</if>>
+
+	<<if $player.isRanged is not true>>
+		<<set _damage = random(1, 5)>>
+		<<set _crit = false>>
+		<<set _playerdmg = _damage + (setup.getStat("attack") - $cur_enemy.defense)>>
+
+                  <<if random(1, 100) <= ($cur_enemy.agility - setup.getStat("agility"))>>
+                      <<set _playerdmg *= 2>>
+                      <<set _crit = true>>
+                  <</if>>
+
+		<<set $cur_enemy.health.current -= Math.max(0, _playerdmg)>>
+        
+        <<if $cur_enemy.health.current > 0>>
+		<<set _damageen = random(1, $cur_enemy.attack)>>
+		<<set _criten = false>>
+		<<set _finaldmg = _damageen + ($cur_enemy.attack - setup.getStat("defense"))>>
+		<<if random(1, 100) <= ($cur_enemy.agility - setup.getStat("agility"))>>
+			<<set _finaldmg *= 2>>
+			<<set _criten = true>>
+		<</if>>
+		<<set _finaldmg = Math.max(0, _finaldmg)>>
+	<</if>>
+
+	<<if $cur_enemy.health.current <= 0>>
+            <<if _crit is true>>
+                <<set _msg = "You deal " + _playerdmg + " critical damage!">>
+            <<else>>
+                <<set _msg = "You deal " + _playerdmg + " damage!">>
+            <</if>>
+	<<else>>
+		<<if _crit and _criten>>
+			<<set _msg = "You deal " + _playerdmg + " critical damage! While the enemy deals " + _finaldmg + " critical damage!">>
+		<<elseif _crit>>
+			<<if $player.tag is "sling" and $cur_enemy.agility + random(1, 10) <= (setup.getStat("agility") * 2 - $cur_enemy.agility)>>
+				<<set _finaldmg = 0>>
+				<<set _msg = "You deal " + _playerdmg + " critical damage! You also dodged the enemy's attack!">>
+			<<else>>
+				<<set _msg = "You deal " + _playerdmg + " critical damage! While the enemy dealt " + _finaldmg + " damage!">>
+			<</if>>
+		<<elseif _criten>>
+			<<set _msg = "You deal " + _playerdmg + " damage! While the enemy deals " + _finaldmg + " critical damage!">>
+		<<elseif $player.tag is "sling" and $cur_enemy.agility + random(1, 10) <= (setup.getStat("agility") * 2 - $cur_enemy.agility)>>
+			<<set _finaldmg = 0>>
+			<<set _msg = "You deal " + _playerdmg + " damage! You also dodged the enemy's attack!">>
+		<<else>>
+			<<set _msg = "You deal " + _playerdmg + " damage! While the enemy dealt " + _finaldmg + " damage!">>
+		<</if>>
+
+		<<set $player.health.current -= _finaldmg>>
+        
+	<</if>>
+    <<run UI.alert(_msg)>>
+	<</if>>
+
+<</widget>>
+
+<<widget "goldcalc">>
+    <<set _loot = random(1, 5)>>
+    <<set _fingold = (_loot + ($cur_enemy.attack + $cur_enemy.defense) + Math.floor($cur_enemy.health.max / 2))>>
+    <<set $gold += _fingold>>
+    <<set $gainedgold = _fingold>>
+<</widget>>
+
+<<widget "xpcalc">>
+    <<set _loot = random(1, 5)>>
+    <<set _finxp = (_loot * ($cur_enemy.attack + $cur_enemy.defense) + Math.floor($cur_enemy.health.max / 2))>>
+    <<set $xp += _finxp>>
+    <<set $gainedxp = _finxp>>
+<</widget>>
+
+
+:: Combat Passages [widget] {"position":"50,700","size":"100,100"}
+<<widget "travel">>
+	You walk down the road going towards your destination.
+    <<link "Head Back" $flightpoint>><</link>>
+    <<link "Journey on towards your destination" $destination>><</link>>
+<</widget>>
+
+<<widget "enkil">> 
+<<xpcalc>> /* xp gained calculation widget */
+<<goldcalc>> /* gold gained calculation widget */
+<<exmr>> /* reset exhaustion and magic recoil widget */
+	You have slain the $cur_enemy.name
+     and have gained $gainedxp xp and $gainedgold gold
+     <<loot>>
+	<<set $inbattle to false>>
+    <<link "Head Back" $flightpoint>><</link>>
+    <<link "Journey on towards your destination" $destination>><</link>>
+<</widget>>
+
+<<widget "fighten">> /* fight enemy widget */
+  You encountered a $cur_enemy.name and it initiates a fight
+
+    The enemy $cur_enemy.name has $cur_enemy.health.current / $cur_enemy.health.max
+
+    <<link "Attack!" $curpassage>>
+    <<attack>>
+    <</link>>
+    <<link "Flee" $flightpoint>>
+    	<<set $inbattle to false>>
+    <</link>>
+<</widget>>
+
+
+:: Count Morris {"position":"2650,1275","size":"100,100"}
+Entering the keep you notice a lot more guards than usual standing guard, asking one of the guards that you wish to see Count Morris, the guards agree to relay the request to Count Morris and told you to wait for a bit. After a few moments Count Morris appears before you. He looks to be in his late 50s, wearing fine clothes befitting a Count of the Rokian Empire. You have heard from the locals that he is a patient man, he was a just count and his reputation among the northern lords of the empire is concerning to the emperor himself.
+
+Deciding not to waste time you...
+
+[[Ask why there are more guards than usual|Duravich]]
+
+
+:: Craft [nobr] {"position":"250,2050","size":"100,100"}
+Choose an item to craft:
+<h2>Choose an item to craft:</h2>
+<div id="crafting-interface">
+    <<include "CraftingUI">>
+</div>
+<br><br>
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: CraftingUI [nobr] {"position":"500,100","size":"100,100"}
+<ul>
+    <<for _recipe, _materials range setup.recipes>>
+        <<capture _materials _recipe>>
+            <li>
+                _recipe (Requires: <<for _mat, _num range _materials>>
+                    <<= _mat + " x" + _num + " ">>
+                <</for>>) 
+                <<if $backpack.compare(_materials)>>
+                    <<button "Craft">>
+                        <<run $backpack.unmerge(_materials)>>
+                        <<pickup $pouch _recipe 1>>
+                        <<replace "#crafting-interface">><<include "CraftingUI">><</replace>>
+                    <</button>>
+                <<else>>
+                    Not enough materials.
+                <</if>>
+            </li>
+        <</capture>>
+    <</for>>
+</ul>
+
+
+:: DW-Quest {"position":"2000,1250","size":"100,100"}
+You see a bounty board with wanted posters.
+
+<<if $bountyActive == true>>
+	However you already have a bounty:
+	Slay <<print $bountyGoal>> <<print $bountyEnemy>>.
+	Progress: <<print $bountyCount>> / <<print $bountyGoal>>. 
+<<else>>
+	
+	You can take a bounty where you can kill 
+<</if>>
+
+[[Head back to the counter|Diamond Watch Tavern]]
+
+
+:: Dark {"position":"750,450","size":"100,100"}
+<<consumable "Dark Strike">>
+<<set $spellpwr = 5>>
+<<set $spltype = "dark">>
+<<set $lastitem to "Dark Strike">>
+<<dmdspell>>
+<<description>>
+    A basic dark spell.
+<</consumable>>
+
+
+:: Death {"position":"700,0","size":"100,100"}
+You have died
+<<link "Game Over">>
+    <<run UI.restart()>>
+<</link>>
+
+
+:: Debug {"position":"1375,400","size":"100,100"}
+<<pickup $weapons "bow" 1>>
+
+<<if $inbattle is false>>
+<<debug>>
+<</if>>
+
+<<if $inbattle is false>>
+<<travel>>
+<</if>>
+
+<<if $cur_enemy.health.current <= 0 && $inbattle is true>>
+<<enkil>>
+<</if>>
+
+<<if $inbattle is true>>
+ <<fighten>>
+<</if>>
+
+<<pickup $backpack "Improvised Arrow" 10>>
+<<pickup $backpack "Arrow" 10>>
+
+<<print $player.isRanged>>
+<<print $weaponSlot>>
+<<print $ammoSlot>>
+
+
+:: Diamond Point {"position":"2450,900","size":"100,100"}
+<<set $flightpoint to $curpassage>>
+The city of Diamond Point, a city said to be the home of House Krech, and one of the few relaible sources of the illustrious Brilscale a fish said to have thick scale as bright as gemstones and valued as you can remove the thick scale and use them as trinkets.
+
+Deciding to get mixed in if conflict broke out you...
+
+[[Head to the port|Diamond Point Port]]
+[[Head towards the Castle to ask for information or a job|Diamond Point Castle]]
+[[Travel southwest and head to Diamond Watch|Dw-Dp][$destination to "Diamond Watch"]]
+[[Travel north and head to Duravich|Dp-D][$destination to "Duravich"]]
+[[Travel north and head to Terath|Dp-D][$destination to "Terath"]]
+
+
+:: Diamond Point Castle {"position":"2400,1125","size":"100,100"}
+Enterinng the castle you see portraits of the previous dukes and duchesses that preside over Diamond Point you are greeted by Duchess Eva with a few Scarlet Shields and even Lady Roza and asks why you seek an audience with her.
+
+Deciding not to waste any time on the matter you...
+
+[[Apologize for wasting her time and leave|Diamond Point]]
+
+
+:: Diamond Point Port {"position":"2425,725","size":"100,100"}
+<<set $lastport to $curpassage>>/
+You arrive at the port of Diamond Point the smell of fish fills your nose however the unique fish Brilscale is often sold here at a very low price as Diamond Bay is one of the places where Brilscales are sold cheaply you see some of the townsfolk look at the guards with hatred. 
+
+Deciding not to be the townsfolk's next target of suspicion you...
+
+[[Go to the town square|Diamond Point]]
+[[Ask the Harbour Master to ferry you to a different port|Harbour Master]]
+
+
+:: Diamond Watch {"position":"2150,975","size":"100,100"}
+<<set $flightpoint to $curpassage>>
+Entering the small town you feel a general sense of animosity among the townsfolk many watching the local guards and how they move deciding to press on you find yourself at the town square.
+
+Deciding not to look somehow more suspicious than the guards you...
+
+[[Head to the port|Diamond Watch Port]]
+[[Head to the Shiny Rum to look for a room or a job|Diamond Watch Tavern]]
+[[Travel northeast and head to Diamond Point|Dw-Dp][$destination to "Diamond Point"]]
+
+
+:: Diamond Watch Port {"position":"2150,825","size":"100,100"}
+<<set $lastport to $curpassage>>/
+You find yourself in the port of Diamond Watch a small town watching the entrance of Diamond Bay, the strategic importance of the town is evident with the amount of guards in town.
+
+Deciding not to be accused of being a spy you..
+
+[[Go to the town square|Diamond Watch]]
+[[Ask the Harbour Master to ferry you to a different port|Harbour Master]]
+
+
+:: Diamond Watch Tavern {"position":"2000,1125","size":"100,100"}
+Entering the Shiny Rum Tavern the smell of ale, beer, and other alcoholic bevrages hang in the air a few patrons look at your direction but quickly go back to their drinks or small meals, heading towards the main counter you spot some patrons looking at a bounty board behind the counter...
+
+You decide to...
+
+[[Head towards the tavern keeper and ask for a bounty|DW-Quest]]
+[[Leave the Shiny Rum Tavern|Diamond Watch]]
+
+
+:: Dp-D {"position":"2625,875","size":"100,100"}
+<<if $inbattle is false>>
+<<north>>
+<</if>>
+
+<<if $inbattle is false>>
+You walk down the road going towards your destination.
+<<link "Head Back" $flightpoint>><</link>>
+<<link "Journey on towards your destination" $destination>><</link>>
+<</if>>
+
+<<if $cur_enemy.health.current <= 0 && $inbattle is true>>
+<<xpcalc>>
+<<goldcalc>>
+	You have slain the $cur_enemy.name
+     and have gained $gainedxp xp and $gainedgold gold
+     <<loot>>
+	<<set $inbattle to false>>
+    <<link "Head Back" $flightpoint>><</link>>
+    <<link "Journey on towards your destination" $destination>><</link>>
+<</if>>
+
+<<if $inbattle is true>>
+    You encountered a $cur_enemy.name and it initiates a fight
+
+    The enemy $cur_enemy.name has $cur_enemy.health.current / $cur_enemy.health.max
+
+    <<link "Attack!" Dp-D>>
+        <<attack>>
+        <<if $cur_enemy.health.current > 0>>
+            <<enemyattack>>
+        <</if>>
+    <</link>>
+    <<link "Flee" $flightpoint>>
+    <<set $inbattle to false>>
+    <</link>>
+<</if>>
+
+
+:: Dreams {"position":"1125,350","size":"100,100"}
+Dev Note: This is a test Version so as a default you start with some money to move around, to grind xp and enemy loot head to Duravich from Diamond point, if there's any issues list it down so I can fix it. everything is also horribly unbalanced and names are subject to change.
+
+[[Begin the journey|Askby]]
+
+
+:: Druhar {"position":"950,950","size":"100,100"}
+The desert island of Druhar is an unforgiving land with few oasis, some call this island home for a variety of reasons from cultural reasons to their trades. 
+
+[[Ask a ferryman to bring you to Askby|Askby]]
+
+
+:: Dur-out {"position":"2550,1025","size":"100,100"}
+<<if $inbattle is false>>
+<<outskirt_1>>
+<</if>>
+
+<<if $inbattle is false>>
+You walk down the road going towards your destination.
+<<link "Head Back" $flightpoint>><</link>>
+[[Explore more|Dur-out]]
+<</if>>
+
+<<if $cur_enemy.health.current <= 0 && $inbattle is true>>
+<<xpcalc>>
+<<goldcalc>>
+	You have slain the $cur_enemy.name
+     and have gained $gainedxp xp and $gainedgold gold
+	<<set $inbattle to false>>
+    <<link "Head Back" $flightpoint>><</link>>
+    [[Explore more|Dur-out]]
+<</if>>
+
+<<if $inbattle is true>>
+    You encountered a $cur_enemy.name and it initiates a fight
+
+    The enemy $cur_enemy.name has $cur_enemy.health.current / $cur_enemy.health.max
+
+    <<link "Attack!" Dur-out>>
+        <<attack>>
+        <<if $cur_enemy.health.current > 0>>
+            <<enemyattack>>
+        <</if>>
+    <</link>>
+    <<link "Flee" $flightpoint>>
+    <</link>>
+<</if>>
+
+
+:: Duravich {"position":"2675,1100","size":"100,100"}
+<<set $flightpoint to "Duravich">>
+Walking to the gates of Duravich in Mitac County, the cold breeze from the mountains make the climate suitable for growing cold crops despite it being summer in the empire. The walls of Duravich decorated with the banners of Count Morris.
+
+Entering the gates you see some guards walking about while other guards are just watching from the ramparts.
+
+
+Decidng not to waste any time you...
+
+[[Head towards castle to speak with count morris|Count Morris]]
+[[Travel south and head to Diamond Point|Dp-D][$destination to "Diamond Point"]]
+[[Travel south and head to Terath|Dp-D][$destination to "Terath"]]
+[[Explore the Outskirts|Dur-out]]
+
+
+:: Dw-Dp {"position":"2300,925","size":"100,100"}
+<<if $inbattle is false>>
+<<centrals>>
+<</if>>
+
+<<if $inbattle is false>>
+<<travel>>
+<</if>>
+
+<<if $cur_enemy.health.current <= 0 && $inbattle is true>>
+<<enkil>>
+<</if>>
+
+<<if $inbattle is true>>
+ <<fighten>>
+<</if>>
+
+
+:: Elemental {"position":"550,350","size":"100,100"}
+<<consumable "Fireball">>
+<<set $spellpwr = 3>>
+<<set $spltype = "elemental">>
+<<set $lastitem to "Fireball">>
+<<dmdspell>>
+<<description>>
+    A basic fire spell.
+<</consumable>>
+
+<<consumable "Earth Shard">>
+<<set $spellpwr = 3>>
+<<set $spltype = "elemental">>
+<<set $lastitem to "Earth Shard">>
+<<dmdspell>>
+<<description>>
+    A basic earth spell.
+<</consumable>>
+
+
+:: Harbour Master {"position":"1800,625","size":"100,100"}
+You meet the Harbour Master and ask him to ferry you to a port. The Harbour Master agrees only if you have the coin.
+
+<<print $curpassage>>
+<<print $lastport>>
+Checking your pouch you have $gold gold
+
+You decide to...
+
+<<if $lastport is "Askby Port">>
+[[Stay for a bit longer|Askby Port]]
+<<elseif $gold < 5>>
+You don't have enough money to go to Askby
+<<else>>
+[[Go to Askby|Askby Port][$gold -= 5]] (Costs 5 Gold)
+<</if>>
+
+<<if $lastport is "Lanac Port">>
+[[Stay for a bit longer|Lanac Port]]
+<<elseif $gold < 5>>
+You don't have enough money to go to Lanac
+<<else>>
+[[Go to Lanac|Lanac Port][$gold -= 5]] (Costs 5 Gold)
+<</if>>
+
+<<if $lastport is "Diamond Point Port">>
+[[Stay for a bit longer|Diamond Point Port]]
+<<elseif $gold < 5>>
+You don't have enough money to go to Diamond Point
+<<else>>
+[[Go to Diamond Point|Diamond Point Port][$gold -= 5]] (Costs 5 Gold)
+<</if>>
+
+<<if $lastport is "Diamond Watch Port">>
+[[Stay for a bit longer|Diamond Watch Port]]
+<<elseif $gold < 5>>
+You don't have enough money to go to Diamond Watch
+<<else>>
+[[Go to Diamond Watch|Diamond Watch Port][$gold -= 5]] (Costs 5 Gold)
+<</if>>
+
+
+:: Holy {"position":"750,350","size":"100,100"}
+<<consumable "Healing Glow">>
+<<set $spellpwr = 3>>
+<<set $spltype = "holy">>
+<<set $lastitem to "Healing Glow">>
+<<dmdspell>>
+<<description>>
+    A basic holy spell that heals minor wounds.
+<</consumable>>
+
+
+:: Hox_mil {"position":"1450,1475","size":"100,100"}
+Captain Alice provides a detailed overview of the composition and strategy of Prince Aidan's army, shedding light on its origins and structure. She explains how many of the mercenaries who rallied to Aidan's cause formed the foundation of the army after he fled the Empire following betrayal by his sisters. These mercenaries, hailing from diverse backgrounds, became the core of three branches: the Hoxean Army, the Mage Corps, and the Militia.
+
+The Hoxean Army serves as the main fighting force, while the Mage Corps provides auxiliary support, and the Militia acts as the local defense. Alice highlights how the diversity within these branches has led to innovation, with each culture contributing unique tactics and strategies based on their traditions. For example, the Zra orcs form a formidable shock core, while the Rethians excel at defending against cavalry with long spears and pikes.
+
+Despite its relatively small size compared to other nations, Alice emphasizes that the army's flexibility, experience, and unwavering loyalty to Prince Aidan make it a formidable force. She proudly notes that even when outnumbered three to one, they have emerged victorious. However, she acknowledges challenges, explaining that the army cannot be stretched too thin without losing effectiveness. Therefore, they must carefully deploy either as one massive army with smaller garrisons left behind or as three smaller intervention forces.
+
+Captain Alice also mentions that during peace some soldiers volunteer to serve in the renowned Foreign Corps. a mercenary company leased to nations in peace as in war they are regular soldiers of Hoxea.
+
+Thanking her you decide to..
+
+[[Head back to Askby|Askby]]
+
+
+:: Inventory [nobr] {"position":"300,0","size":"100,100"}
+Misc Items
+<<inv $backpack drop inspect use>>
+
+Healing Items
+<<inv $pouch inspect use drop>>
+
+Spells
+<<inv $spells inspect use>>
+
+Weapons
+<<inv $weapons>>
+
+Armor
+<<inv $armor>>
+
+Shield
+<<inv $shield>>
+
+
+:: Lanac {"position":"1825,925","size":"100,100"}
+<<set $flightpoint to "Lanac">>
+Finding yourself in Lanac a city built on an island with the same name you see mainly knights and their squires walking about some are training, while you see preists writing in their temples.
+
+You decide to...
+
+[[Go to the main temple to ask for information or a job|Lanac Temple]]
+[[Head towards the port|Lanac Port]]
+
+
+:: Lanac Port {"position":"1825,775","size":"100,100"}
+<<set $lastport to $curpassage>>/
+Finding yourself at the docks of Lanac the smell of fish fills your nose as you walk past fishermen selling their hauls, travellers preparing to leave the island, and some soldiers preparing to go out on patrol. You see some heavly armed knights standing guard sporting the banner of their brotherhood on their chestplate also standing guard.
+
+Deciding not stick out of place you decide too...
+
+[[Go to the town square|Lanac]]
+[[Ask the Harbour Master to ferry you to a different port|Harbour Master]]
+
+
+:: Lanac Temple {"position":"2000,900","size":"100,100"}
+Entering the main temple of Lanac it's less of a temple and more a miniature castle with walls and smaller towers with holy knights standing guard and some squires training in the inner courtyards. You soon meet the head of the Lanacian Brotherhood Sir Aaron, he asks you why you need to see him
+
+Not wanting to waste his time you...
+[[Ask if he needs any assistance
+[[Apologize for wasting his time and head back out|Lanac]]
+
+
+
+:: Lopar {"position":"1450,1200","size":"100,100"}
+The village of Lopar is located near some forests reserved for mainly wild game, herbs, mushrooms and other foragable goods. A man named Armato the elder of Lopar has allowed you to hunt and forage for goods in the forest. 
+
+[[Head back to Lazurit|Askby vil]]
+
+
+:: Menu {"position":"1325,25","size":"100,100"}
+[[Start a new game|Dreams]]
+<<link "Quit game">><<script>>window.close()<</script>><</link>>
+
+
+:: Range Combat [widget nobr] {"position":"300,300","size":"100,100"}
+<<widget "Ranged">>
+<<if $backpack.count($ammoSlot) > 0>>
+  <<set _ammo = $ammoSlot>>
+  <<set _baseDamage = random(1, 5) + (setup.getStat("attack") / 4)>>
+  <<set _playerDamage = 0>>
+
+  <<switch $player.tag>>
+    <<case "bow">>
+      <<set _playerDamage = _baseDamage + ((setup.getStat("agility") / 2) + setup.ammo.get($ammoSlot).damage - $cur_enemy.defense)>>
+    <<case "crossbow">>
+      <<set _playerDamage = (_baseDamage * 2) + (setup.ammo.get($ammoSlot).damage - $cur_enemy.defense)>>
+    <<case "firearm">>
+      <<set _playerDamage = (_baseDamage * 2) + (setup.ammo.get($ammoSlot).damage * 1.5) - $cur_enemy.defense>>
+      <<case "firearm">>
+      <<set _playerDamage = (_baseDamage * 2) + (setup.ammo.get($ammoSlot).damage * 1.5) - $cur_enemy.defense>>
+    <<case "sling">>
+      <<set _playerDamage = _baseDamage + setup.ammo.get($ammoSlot).damage - $cur_enemy.defense>>
+    <<default>>
+      <<set _playerDamage = _baseDamage>>
+  <</switch>>
+
+  <<set _playerDamage = Math.max(0, Math.round(_playerDamage))>>
+  <<set $cur_enemy.health.current -= _playerDamage>>
+  <<drop $backpack $ammoSlot 1>>
+
+  <<run UI.alert("You shoot with " + $ammoSlot + " and deal " + _playerDamage + " damage!")>>
+<<else>>
+  <<run UI.alert("You're out of ammo!")>>
+<</if>>
+<</widget>>
+
+
+:: Refine [nobr] {"position":"350,2075","size":"100,100"}
+Choose an item to refine:
+<h2>Choose an item to refine:</h2>
+<div id="refining-interface">
+    <<include "RefiningUI">>
+</div>
+<br><br>
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: RefiningUI [nobr] {"position":"500,0","size":"100,100"}
+<ul>
+    <<for _recipe range setup.refine>>
+        <<capture _recipe>>
+            <li>
+                _recipe.item (Requires: <<for _mat, _num range _recipe.materials>>
+                    <<= _mat + " x" + _num + " ">>
+                <</for>>) 
+                <<if $backpack.compare(_recipe.materials)>>
+                    <<button "Craft">>
+                        <<run $backpack.unmerge(_recipe.materials)>>
+                        <<pickup $backpack _recipe.item 1>>
+                        <<replace "#refining-interface">><<include "RefiningUI">><</replace>>
+                    <</button>>
+                <<else>>
+                    Not enough materials.
+                <</if>>
+            </li>
+        <</capture>>
+    <</for>>
+</ul>
+
+
+:: Sell [nobr] {"position":"25,1700","size":"100,100"}
+<h2>Items on hand:</h2>
+<div class="shopping-interface">
+<<for _item, _amount range $backpack.table>>
+    <<selllink _item _amount>>
+<</for>>
+</div>
+<br><br>
+
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: Sell-A [nobr] {"position":"25,1900","size":"100,100"}
+<h2>Items on hand:</h2>
+<div class="shopping-interface">
+<<for _item, _amount range $armor.table>>
+    <<selllink-a _item _amount>>
+<</for>>
+</div>
+<br><br>
+
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: Sell-Func [nobr widget] {"position":"175,400","size":"100,100"}
+<<widget "selllink">>
+    <<set _item to _args[0]>>
+    <<set _amount to _args[1]>>
+    <<set _price to setup.prices.get(_item) || 1>>
+    <p @data-item="_item" class="sell-listing">
+        <span>_item</span> 
+        <span class="count">_amount</span> 
+        <span class="sell-link">
+            <<capture _item, _amount, _price>>
+                <<link "Sell">>
+                    <<gold _price>>
+                    <<transfer $backpack $shop _item 1>>
+                    <<set _amount -->>
+                    <<if _amount > 0>>
+                        <<replace `"p.sell-listing[data-item=\"" + _item + "\"] > .count"`>>_amount<</replace>>
+                    <<else>>
+                        <<remove `"p.sell-listing[data-item=\"" + _item + "\"]"`>>
+                    <</if>>
+                <</link>>
+            <</capture>>
+        </span>
+    </p>
+<</widget>>
+
+<<widget "selllink-w">>
+    <<set _item to _args[0]>>
+    <<set _amount to _args[1]>>
+    <<set _price to setup.prices.get(_item) || 1>>  <!-- Get the price -->
+    
+    <p @data-item="_item" class="sell-listing">
+        <span>_item</span> 
+        <span class="count">_amount</span> 
+        <span class="sell-link">
+            <<capture _item, _amount, _price>>
+                <<link "Sell">>
+                    <<gold _price>>
+                    <!-- Unequip the item if it's currently equipped -->
+                    <<if _item === $weaponSlot>>
+                        <<set $weaponSlot to "">> <!-- Unequip the weapon -->
+                        <<set $adjustments.weapon to { attack: 0, defense: 0, agility: 0, tag: "", isRanged: false }>> <!-- Reset adjustments -->
+                        <<set $player.tag to "">> <!-- Clear player tag -->
+                        <<set $player.isRanged to false>> <!-- Reset ranged status -->
+                    <</if>>
+                    <!-- Transfer item to the shop and remove it from inventory -->
+                    <<transfer $weapons $shopweapon _item 1>>  
+                    <!-- Move the item to the shop -->
+                    <<set _amount -->>
+                    <<if _amount > 0>>
+                        <<replace `"p.sell-listing[data-item=\"" + _item + "\"] > .count"`>>_amount<</replace>>
+                    <<else>>
+                        <<remove `"p.sell-listing[data-item=\"" + _item + "\"]"`>>
+                    <</if>>
+                <</link>>
+            <</capture>>
+        </span>
+    </p>
+<</widget>>
+
+<<widget "selllink-a">>
+    <<set _item to _args[0]>>
+    <<set _amount to _args[1]>>
+    <<set _price to setup.prices.get(_item) || 1>>  <!-- Get the price -->
+    
+    <p @data-item="_item" class="sell-listing">
+        <span>_item</span> 
+        <span class="count">_amount</span> 
+        <span class="sell-link">
+            <<capture _item, _amount, _price>>
+                <<link "Sell">>
+                    <<gold _price>>
+                    <!-- Unequip the item if it's currently equipped -->
+                    <<if _item === $armorSlot>>
+                        <<set $armorSlot to "">> <!-- Unequip the armor -->
+                        <<set $adjustments.armor to { attack: 0, defense: 0, agility: 0 }>> <!-- Reset adjustments -->
+                    <</if>>
+                    <!-- Transfer item to the shop and remove it from inventory -->
+                    <<transfer $armor $shoparmor _item 1>>  <!-- Move the item to the shop -->
+                    <<set _amount -->>
+                    <<if _amount > 0>>
+                        <<replace `"p.sell-listing[data-item=\"" + _item + "\"] > .count"`>>_amount<</replace>>
+                    <<else>>
+                        <<remove `"p.sell-listing[data-item=\"" + _item + "\"]"`>>
+                    <</if>>
+                <</link>>
+            <</capture>>
+        </span>
+    </p>
+<</widget>>
+
+<<widget "selllink-p">>
+    <<set _item to _args[0]>>
+    <<set _amount to _args[1]>>
+    <<set _price to setup.prices.get(_item) || 1>>
+    <p @data-item="_item" class="sell-listing">
+        <span>_item</span> 
+        <span class="count">_amount</span> 
+        <span class="sell-link">
+            <<capture _item, _amount, _price>>
+                <<link "Sell">>
+                    <<gold _price>>
+                    <<transfer $pouch $shopheal _item 1>>
+                    <<set _amount -->>
+                    <<if _amount > 0>>
+                        <<replace `"p.sell-listing[data-item=\"" + _item + "\"] > .count"`>>_amount<</replace>>
+                    <<else>>
+                        <<remove `"p.sell-listing[data-item=\"" + _item + "\"]"`>>
+                    <</if>>
+                <</link>>
+            <</capture>>
+        </span>
+    </p>
+<</widget>>
+
+<<widget "selllink-s">>
+    <<set _item to _args[0]>>
+    <<set _amount to _args[1]>>
+    <<set _price to setup.prices.get(_item) || 1>>  <!-- Get the price -->
+    
+    <p @data-item="_item" class="sell-listing">
+        <span>_item</span> 
+        <span class="count">_amount</span> 
+        <span class="sell-link">
+            <<capture _item, _amount, _price>>
+                <<link "Sell">>
+                    <<gold _price>>
+                    <!-- Unequip the item if it's currently equipped -->
+                    <<if _item === $shieldSlot>>
+                        <<set $shieldSlot to "">> <!-- Unequip the armor -->
+                        <<set $adjustments.shield to { attack: 0, defense: 0, agility: 0 }>> <!-- Reset adjustments -->
+                    <</if>>
+                    <!-- Transfer item to the shop and remove it from inventory -->
+                    <<transfer $shield $shopshield _item 1>>  <!-- Move the item to the shop -->
+                    <<set _amount -->>
+                    <<if _amount > 0>>
+                        <<replace `"p.sell-listing[data-item=\"" + _item + "\"] > .count"`>>_amount<</replace>>
+                    <<else>>
+                        <<remove `"p.sell-listing[data-item=\"" + _item + "\"]"`>>
+                    <</if>>
+                <</link>>
+            <</capture>>
+        </span>
+    </p>
+<</widget>>
+
+
+:: Sell-P [nobr] {"position":"25,2000","size":"100,100"}
+<h2>Items on hand:</h2>
+<div class="shopping-interface">
+<<for _item, _amount range $pouch.table>>
+    <<selllink-p _item _amount>>
+<</for>>
+</div>
+<br><br>
+
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: Sell-S [nobr] {"position":"25,2100","size":"100,100"}
+<h2>Items on hand:</h2>
+<div class="shopping-interface">
+<<for _item, _amount range $shopshield.table>>
+    <<selllink-s _item _amount>>
+<</for>>
+</div>
+<br><br>
+
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: Sell-W [nobr] {"position":"25,1800","size":"100,100"}
+<h2>Items on hand:</h2>
+<div class="shopping-interface">
+<<for _item, _amount range $weapons.table>>
+    <<selllink-w _item _amount>>
+<</for>>
+</div>
+<br><br>
+
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: Sernia_lore {"position":"450,1600","size":"100,100"}
+Taylor leads you towards the history section of the library and he pulls out a book titled
+"Sernian history and the union of crowns" he states that this is the most detailed book they have and states that he has to go back to the counter to help. As he walks away you begin reading about the recent history of the United Kingdoms of Sernia.
+
+The United Kingdoms of Sernia was formed only a hundred years ago as a union between the Venuiti Kingdom and Kingdom of Rhzi, though not without difficulty as the Kingdom of Rhzi deposed Karl III in favor of his sister Lora I who was married to the king of Venuiti Kingdom Anton IV and formed a union of kingdoms. They have recently annexed the Kosut Marches to the north and as such there is a bit of turmoil. You continue to read and find out that due to succession problems as well as the question of the strength of the monarch multiple rebellions are in progress. Some are Royalists wishing to keep the status quo, some are Loyalists to Jakob I grandson to Karl III who wishes to reclaim the Rhzi Kingdom but nothing more, some are Republicans who wish to dissolve  the Kingdoms in favor of multiple republics bound by a confederation. You also read that a popular religious movement is sweeping the southern part of the kingdoms wish to establish a religious state. The greatest threat was maybe the Kosut seperatists, they have allied with Jakob I as Jakob wishes to reclaim his kingdom in return he promised to make the Kosut Marches independent some have rallied to his cause others fight it while a small few fight for the royalists. Due to the recent instability mercenaries are flooding in for work some nations sent volunteers to their chosen side and even sent supplies or offered refugee. Finishing the book you also deduce that due to the chaos demons and monsters are likely to spawn from it all.
+
+[[You close the book and return to the front desk|Askby Library]]
+
+
+:: Spellcraft [nobr] {"position":"475,2075","size":"100,100"}
+Choose a Spell to create:
+<h2>Choose a Spell to create:</h2>
+<div id="spellmaking-interface">
+    <<include "SpellmakingUI">>
+</div>
+<br><br>
+    <<link "Head back" `previous()`>>
+    <</link>>
+
+
+:: SpellmakingUI [nobr] {"position":"500,200","size":"100,100"}
+<ul>
+    <<for _recipe, _materials range setup.spellmap>>
+        <<capture _materials _recipe>>
+            <li>
+                _recipe (Requires: <<for _mat, _num range _materials>>
+                    <<= _mat + " x" + _num + " ">>
+                <</for>>) 
+                <<if $backpack.compare(_materials)>>
+                    <<button "Create">>
+                        <<run $backpack.unmerge(_materials)>>
+                        <<pickup $spells _recipe 1>>
+                        <<replace "#spellmaking-interface">><<include "SpellmakingUI">><</replace>>
+                    <</button>>
+                <<else>>
+                    Not enough materials.
+                <</if>>
+            </li>
+        <</capture>>
+    <</for>>
+</ul>
+
+
+:: Spells {"position":"600,525","size":"100,100"}
+<<include [[Elemental]]>>
+<<include [[Arcane]]>>
+<<include [[Holy]]>>
+<<include [[Dark]]>>
+
+
+:: Stores replenish [widget nobr] {"position":"50,775","size":"100,100"}
+<<widget "replenish">>
+    <<set $repitem = "">>
+    <<set _num_outitm = 0>>
+
+    <<set _keys = Array.from(setup.prices.keys())>>
+    
+    <<for _entry range _keys>>
+        <<set _replen = random(1, 10)>>
+        <<set $repitem = _entry>> 
+        <<pickup $shop $repitem _replen>>
+    <</for>>
+
+<</widget>>
+
+
+
+:: StoryCaption {"position":"50,100","size":"100,100"}
+Gold Aurums: @@#gold;<<= $gold>>@@
+Current Health:  @@#hp;<<= $player.health.current>>@@/<<print $player.health.max>>
+Level: $lv
+Xp: $xp
+Stamina: $cur_stamina/$max_stamina
+@@#caption-stats;<<include "stat display">>@@
+
+
+:: StoryInit {"position":"425,600","size":"100,100"}
+<<newinv $backpack>>
+<<newinv $pouch>>
+<<newinv $weapons>>
+<<newinv $armor>>
+<<newinv $shield>>
+<<newinv $spells>>
+
+<<newinv $shop>>
+<<newinv $shopweapon>>
+<<newinv $shoparmor>>
+<<newinv $shopheal>>
+<<newinv $shopshield>>
+
+<<set $weaponSlot = "">>
+<<set $armorSlot = "">>
+<<set $shieldSlot = "">>
+
+<<set $curpassage = "">>
+
+<<set $ammoSlot = null>>
+
+<<set $player = {
+    attack: 10,
+    defense: 10,
+    agility: 10,
+     health: {
+        current: 10, // Current health points
+        max: 100      // Maximum health points
+    },
+    isRanged: false,
+    tag: ""
+}>>
+
+<<set $cur_enemy = {
+    name: "blank",
+    attack: 0,
+    defense: 0,
+    agility: 0,
+    health: {
+        current: 0,
+        max: 0
+    }
+}>>
+
+<<set $xp to 0>>
+<<set $stat to 0>>
+<<set $lv to 1>>
+<<set $exhaustion to 0>>
+<<set $throwndmg to 0>>
+<<set $lastitem to "">>
+<<set $magicrecoil to 0>>
+
+
+<<set $gold to 0>>
+<<set $gainedxp to 0>>
+<<set $gainedgold to 0>>
+<<set $destination to "none">>
+<<set $inbattle to false>>
+<<set $spawn = random(1, 100)>>
+<<set $flightpoint to "none">>
+<<set $cur_stamina to 10>>
+<<set $max_stamina to ($player.agility * 2)>>
+
+<<include [[equipment]]>>
+<<include [[functions]]>>
+<<include [[quests]]>>
+<<include [[consumable]]>>
+<<include [[craftmap]]>>
+<<include [[price]]>>
+<<include [[enemy]]>>
+<<include [[Ammo]]>>
+<<include [[Spells]]>>
+<<include [[Throwing]]>>
+<<include [[Village Output Map]]>>
+
+
+:: StoryMenu {"position":"50,0","size":"100,100"}
+<<link "Inventory">>
+    <<run Dialog.setup("Inventory", "inventory"); Dialog.wiki(Story.get("Inventory").text); Dialog.open()>>
+<</link>>
+<<link "Equipment">>
+    <<run Dialog.setup("Equipment", "equipchange"); Dialog.wiki(Story.get("equipchange").text); Dialog.open()>>
+<</link>>
+
+<<link "Select Ammo">>
+<<run Dialog.setup("Ammo", "inventory"); Dialog.wiki(Story.get("ammochange").text);Dialog.open()>>
+<</link>>
+
+
+:: TO DO {"position":"1000,50","size":"100,100"}
+FIX VARIABLES -- Ok?
+IMPLEMENT THROWING AND MAGIC - Done
+FIX COMBAT -- DONE
+
+- Add items to store - done
+- Crafting - pre alpha
+- Small quests - Quests probably setup with if cur_enemy.name === questtargetname
+
+
+
+:: Terath {"position":"2625,725","size":"100,100"}
+<<set $flightpoint to "Terath">>
+The great city of Terath, the seat of the emperor of the Rokian Empire, stands as a bastion of strength and prosperity. Its formidable walls and advanced defenses render any siege a daunting challenge. The surrounding rolling plains, rich and fertile, ensure a bountiful supply of food, making sustenance affordable and plentiful.
+
+As a result, Terath is a bustling hub of activity. People from all walks of life flock to the city, drawn by the promise of opportunity and prosperity. Farmhands and blacksmiths find steady work to sustain the city's infrastructure, while merchants, both humble and ambitious, seek their fortunes in the bustling markets and trade routes that run through Terath. 
+
+As you stand outside the great city walls you decide to...
+[[Travel north and head to Diamond Point|Dp-D][$destination to "Diamond Point"]]
+[[Travel south and head to Diamond Point|Dp-D][$destination to "Duravich"]]
+
+
+:: Throwing {"position":"200,525","size":"100,100"}
+<<consumable "Javelin">>
+<<set $throwndmg = 10>>
+<<set $lastitem to "Javelin">>
+<<thrown>>
+<<description>>
+    A long spear that deals some damage to the enemy.
+<</consumable>>
+
+<<consumable "Pila">>
+<<set $throwndmg = 15>>
+<<set $lastitem to "Pila">>
+<<thrown>>
+<<description>>
+    A special spear designed to break shields, or kill opponents.
+<</consumable>>
+
+<<consumable "Zaxcisca">>
+<<set $throwndmg = 10>>
+<<set $lastitem to "Zaxcisca">>
+<<thrown>>
+<<description>>
+    An axe used for combat, careful this can bounce when striking the ground.
+<</consumable>>
+
+<<consumable "Throwing Knife">>
+<<set $throwndmg = 5>>
+<<set $lastitem to "Throwing Knife">>
+<<thrown>>
+<<description>>
+    A knife modified to be thrown at an enemy
+<</consumable>>
+
+<<consumable "Assassin Throwing Knife">>
+<<set $throwndmg = 10>>
+<<set $lastitem to "Assassin Throwing Knife">>
+<<thrown>>
+<<description>>
+    A more clandestine knife used by more subtle people
+<</consumable>>
+
+<<consumable "Throwing Stone">>
+<<set $throwndmg = 3>>
+<<set $lastitem to "Throwing Stone">>
+<<thrown>>
+<<description>>
+    A small sharp stone quite painful if thrown correctly
+<</consumable>>
+
+<<consumable "War Dart">>
+<<set $throwndmg = 5>>
+<<set $lastitem to "War Dart">>
+<<thrown>>
+<<description>>
+    A cheaper Javelin in a way
+<</consumable>>
+
+<<consumable "Pozian Flask">>
+<<set $throwndmg = 10>>
+<<set $lastitem to "Pozian Flask">>
+<<thrown>>
+<<description>>
+    A small flask filled with a secret mixture that explodes when thrown
+	with force, Handle with care
+<</consumable>>
+
+<<consumable "Pozian Grenade">>
+<<set $throwndmg = 25>>
+<<set $lastitem to "Pozian Grenade">>
+<<thrown>>
+<<description>>
+    Remember the flask? Yeah this is its big brother that incinerates not just flesh or wood but hope too, Good luck
+<</consumable>>
+
+
+:: Throwing/Magic [widget nobr] {"position":"400,400","size":"100,100"}
+<<widget "thrown">>
+ <<if $inbattle == true>>
+     <<set _dmg = $throwndmg>>
+  <<if $exhaustion === 3>>
+      <<set _dmg = _dmg * 0.75>>
+  <<elseif $exhaustion === 4>>
+      <<set _dmg = _dmg * 0.5>>
+  <<elseif $exhaustion >= 5>>
+      <<set _dmg = _dmg * 0.25>>
+      <<set $exhaustion += 1>>
+  <</if>>
+
+    	<<set $cur_enemy.health.current -= Math.max(0, _dmg)>>
+			<<goto $curpassage>>
+    <<else>>
+    	<<run UI.alert("You are not in combat with anything")>>
+        <<pickup $backpack $lastitem 1>>
+	<</if>>
+<</widget>>
+
+<<widget "dmdspell">>
+<<pickup $spells $lastitem 1>>
+<<if $inbattle == true>>
+    <<set _dmg = $spellpwr>>
+        
+        <<switch $spltype>>
+		<<case "elemental">>
+        <<set _lsstamina = ($spellpwr / 2)>>
+		<<case "arcane">>
+        <<set _lsstamina = ($spellpwr * 1.5)>>
+        <<case "holy">>
+        <<set _lsstamina = $spellpwr>>
+        <<case "dark">>
+        <<set _lsstamina = $spellpwr>>
+        <<set $magicrecoil += 1>>
+		<</switch>>
+        
+           <<if _lsstamina <= $cur_stamina>>
+           
+           <<if $magicrecoil === 5>>
+              <<set $player.health.current -= 5>>
+              <<set _dmg = _dmg * 0.8>>
+          <<elseif $magicrecoil === 6>>
+              <<set $player.health.current -= 10>>
+              <<set _dmg = _dmg * 0.6>>
+          <<elseif $magicrecoil >= 7>>
+              <<set $player.health.current -= 15>>
+              <<set _dmg = _dmg * 0.4>>
+              <<set $magicrecoil += 1>>
+          <</if>>
+          
+          <<set $cur_stamina -= _lsstamina>>
+          <<set $cur_enemy.health.current -= Math.max(0, _dmg)>>
+          <<goto $curpassage>>
+          <<else>>
+          <<run UI.alert("You don't have enough Stamina")>>
+          <</if>>
+        <<else>>
+    	<<run UI.alert("You are not in combat with anything")>>
+    <</if>>
+<</if>>
+<</widget>>
+
+<<widget "hpspell">>
+	<<pickup $spells $lastitem 1>>
+	<<if $inbattle == true>>
+    <<set _dmg = $spellpwr>>
+
+    <<switch $spltype>>
+		<<case "elemental">>
+        <<set _lsstamina = ($spellpwr / 2)>>
+		<<case "arcane">>
+        <<set _lsstamina = ($spellpwr * 1.5)>>
+        <<case "holy">>
+        <<set _lsstamina = $spellpwr>>
+        <<case "dark">>
+        <<set _lsstamina = $spellpwr>>
+        <<set $magicrecoil += 1>>
+		<</switch>>
+        
+        <<if _lsstamina <= $cur_stamina>>
+        
+          <<if $magicrecoil === 5>>
+              <<set $player.health.current -= 5>>
+              <<set _dmg = _dmg * 0.8>>
+          <<elseif $magicrecoil === 6>>
+              <<set $player.health.current -= 10>>
+              <<set _dmg = _dmg * 0.6>>
+          <<elseif $magicrecoil >= 7>>
+              <<set $player.health.current -= 15>>
+              <<set _dmg = _dmg * 0.4>>
+              <<set $magicrecoil += 1>>
+          <</if>>
+          
+        <<set $cur_stamina -= _lsstamina>>
+        <<set $player.health.current += Math.min($player.health.max, _dmg)>>
+        <<run UI.alert("You heal yourself")>>
+        <<goto $curpassage>>
+        <<else>>
+        <<run UI.alert("You don't have enough Stamina")>>
+        <</if>>
+    
+<<elseif $inbattle == false && $player.health.current < $player.health.max>>
+	
+    <<switch $spltype>>
+		<<case "elemental">>
+        <<set _lsstamina = ($spellpwr / 2)>>
+		<<case "arcane">>
+        <<set _lsstamina = ($spellpwr * 1.5)>>
+        <<case "holy">>
+        <<set _lsstamina = $spellpwr>>
+        <<case "dark">>
+        <<set _lsstamina = $spellpwr>>
+        <<set $magicrecoil += 1>>
+		<</switch>>
+        
+     <<if _lsstamina <= $cur_stamina>>
+        <<set $cur_stamina -= _lsstamina>>
+    <<set $player.health.current += Math.min($player.health.max, _dmg)>>
+    <<run UI.alert("You heal yourself")>>
+	<<goto $curpassage>>
+         <<else>>
+        <<run UI.alert("You don't have enough Stamina")>>
+        <</if>>
+<<else>>
+    <<run UI.alert("You are at full health and need no more healing")>>
+<</if>>
+<</widget>>
+
+<<widget "exmr">>
+ <<set $magicrecoil = 0>>
+ <<set $exhaustion = 0>>
+<</widget>>
+
+
+:: Training [nobr widget] {"position":"50,400","size":"100,100"}
+<<widget "Training">>
+<<if $xp >= 50*$lv>>\
+<<set $lv ++>>\
+<<set $stat ++>>\
+<</if>>\
+
+<<if $stat > 0>>
+<<link "Increase Health" Training-Askby>>
+    <<set $player.health.max += 10>>
+    <<set $player.health.current += 10>>
+    <<set $stat -->>
+    <<run UI.alert("Health increased!")>>
+<</link>>
+
+<<link "Increase Attack" Training-Askby>>
+    <<set $player.attack += 1>>
+    <<set $stat -->>
+    <<run UI.alert("Attack increased")>>
+<</link>>
+
+<<link "Increase Defense" Training-Askby>>
+    <<set $player.defense += 1>>
+    <<set $stat -->>
+    <<run UI.alert("Defense increased!")>>
+<</link>>
+
+<<link "Increase Agility" Training-Askby>>
+    <<set $player.agility += 1>>
+    <<set $stat -->>
+    <<run UI.alert("Agility increased!")>>
+<</link>>
+	
+    <<set $max_stamina to ($player.agility * 2)>>
+    
+    <<else>>
+    You have no remaining stat increases
+<</if>>
+<</widget>>
+
+
+:: Training-Askby {"position":"1475,1325","size":"100,100"}
+Making your way to the training grounds, you observe soldiers sparring with a variety of weapons: swords, spears, glaives, and halberds. Nearby, others are practicing their marksmanship with bows, javelins, slings, crossbows, and even the rare Hoxan Rifle—known to most outside the principality as an arquebus. Some of the light infantry are also seen throwing small darts at targets.
+
+You notice some soldiers using the Portu Launce, a hand cannon capable of launching small solid balls or some fused to explode. Additionally, some are carrying glass and clay spheres with ropes attached. These spheres are either thrown by hand, launched farther using slings, or shot over great distances with a modified Portu Launce called a Portu Mort.
+
+You also notice soldiers training with larger siege weapons such as cannons, mortars, catapults, scorpions, ballistae, and trebuchets. Engineers on the sidelines take meticulous notes, likely working on ways to improve the efficiency of these formidable machines. Beside them are sappers training to breach walls and fortifications during assaults.
+
+You soon hear horses and spot some knights practicing cavalry skills using lances and longswords, some even practicing skirmish tactics with bows, crossbows, and the new Pistol a smaller black powder weapon. Despite their age, chariots are still fielded. Among the horses, you notice some soldiers riding elephants, wielding long spears and bows, some even using the feared Zubri Crossbow, said to shoot five bolts in ten seconds. Others attempt to ride camels, equipped with lighter armor and spears.
+
+You also spot a smaller cadre of soldiers using a strange device with a tube and a cone connected to a small container on top. From what you see, when a soldier squeezes the trigger, the cone blasts fire. Not wanting to be burned, you continue to move forward.
+
+Amid the activity, you spot Captain Alice. She approaches and, recognizing you, says, "Feel free to use the empty field over there to train your skills." She points to a vacant area, giving you a nod of approval.
+
+<<Training>>
+
+[[Ask Captain Alice of the history of the Hoxean Royal Army|Hox_mil]]
+[[Head back to the town square|Askby]]
+
+
+:: Village Output Map {"position":"200,825","size":"100,100"}
+<<set $field_table = [
+    {range: [100, 100], output: "saffron"},
+    {range: [97, 99], output: "cotton"},
+    {range: [94, 96], output: "papyrus"},
+    {range: [91, 93], output: "indigo"},
+    {range: [88, 90], output: "madder root"},
+    {range: [85, 87], output: "bamboo"},
+    {range: [80, 84], output: "woad"},
+    {range: [75, 79], output: "rye"},
+    {range: [70, 74], output: "wheat"},
+    {range: [65, 69], output: "barley"},
+    {range: [60, 64], output: "oat"},
+    {range: [55, 59], output: "millet"},
+    {range: [50, 54], output: "rice"},
+    {range: [45, 49], output: "corn"},
+    {range: [40, 44], output: "potato"},
+    {range: [35, 39], output: "carrot"},
+    {range: [30, 34], output: "hops"},
+    {range: [25, 29], output: "sugarcane"},
+    {range: [20, 24], output: "grape"},
+    {range: [15, 19], output: "juniper berry"},
+    {range: [10, 14], output: "hemp"},
+    {range: [5, 9], output: "fruits"},
+    {range: [1, 4], output: "vegetables"}
+]>>
+
+<<set $ore_table = [
+    { range: [90, 100], output: "gold ore" },
+    { range: [80, 89], output: "silver ore" },
+    { range: [70, 79], output: "copper ore" },
+    { range: [60, 69], output: "iron ore" },
+    { range: [50, 59], output: "tin ore" },
+    { range: [40, 49], output: "lead ore" },
+    { range: [30, 39], output: "coal" },
+    { range: [20, 29], output: "marble" },
+    { range: [10, 19], output: "obsidian" },
+    { range: [1, 9], output: "sulfur" }
+]>>
+
+<<set $hunt_table = [
+    { range: [90, 100], output: "venison" },
+    { range: [80, 89], output: "mushroom" },
+    { range: [70, 79], output: "hide" },
+    { range: [60, 69], output: "furs" },
+    { range: [50, 59], output: "animal skins" },
+    { range: [40, 49], output: "pelt" },
+    { range: [30, 39], output: "herbs" },
+    { range: [20, 29], output: "nuts" },
+    { range: [10, 19], output: "fruits" },
+    { range: [1, 9], output: "enchanted wood" }
+]>>
+
+
+:: Xohar {"position":"1075,925","size":"100,100"}
+Arriving at Xohar the jungle isle near Hoxea you soon land at the docks of Little Askby a small town on the ilse. As you disembark from the ferry you can see the soldiers trying to tame some Amphiptere to use as mounts in the dense jungle. You then spot some riding in Hippocampi, Hippogryphs, Griffins and Dragons. You soon find your way to the Main Square of the Town
+
+You decide to...
+
+[[Ask the ferryman to bring you to Askby|Askby]]
+[[Ask the Captain of the garrison for more information|
+[[Head outside the safety of the walls to fight some creatures|
+
+
+:: Zernia Race {"position":"625,1375","size":"100,100"}
+Flipping to the next page you continue to read the history of these races and cultures.
+
+Leplaka: Guardians of the Isles
+
+In the azure waters of the Karlan-Midrin Isles, the Leplaka stand as bastions against the tide of invaders. Once masters of these lands, they now cling to the southern isles and the Great Kran, their resistance unyielding against colonization and conquest. Painted warriors, they blend with the land itself, striking with the fury of a tempest, their resolve bolstered by the icy touch of the Goddess of Frost.
+
+Ronian and Rokian Empires: A Legacy of Glory and Ambition
+
+Eight centuries past, the Ronian Empire cast its shadow over eastern Diventi, only to succumb to internal strife and overextension, crumbling in a blaze of glory. Rising from its ashes, the Rokian Empire sought to reclaim its predecessor's glory, but memories of the old empire linger among the long-lived Biram and the independent United Kingdom of Sernia, symbolized by the revered griffins of the Northern Ronians.
+
+Biram and Rarnul: Guardians of Mountain and Silk
+
+Amidst the eastern mountains dwell the industrious Biram, renowned for their mining prowess and brewing expertise. Divided along clan and tribe lines, they pledge allegiance to the High King of Dwornia, chosen by a spirited contest of libations. In stark contrast, the Rarnul of the south, with their spider-like features, once inhabited the southeastern provinces of the Rokian Empire. Hunted and persecuted for their differences, many seek refuge in distant lands, their plight a testament to the cruelty of imperial rule.
+
+Venuit and Lynar: Keepers of the Rivers and Forests
+
+To the east, the Venuit ply the rivers in their sturdy canoes, mastering the art of water magic and thriving off the bounty of the land. In the southeastern reaches, the reclusive Lynar stand sentinel over the verdant forests, skilled in archery and herbal medicine. Despite occasional clashes with the Biram, they remain staunch defenders of their woodland domain, aided by mystical creatures of the forest.
+
+Kosut Giants and Turthian Traders: Titans and Tastemakers
+
+In the shadow of the mountains, the colossal Kosut giants and their smaller Uti brethren march to battle, wielding enchanted bows and serving as living bulwarks against their foes. Across the plains, the Turthians cultivate spices and trade exotic goods, renowned for their culinary prowess and mastery of falconry. Their lords, astride mighty elephants, wield both power and influence in the courts of Diventi.
+
+Yinto Sorcerers and Zra Orcs: Masters of Magic and Ferocity
+
+Amidst the arcane spires of the Yinto capital, sorcery thrives, though those without the gift are relegated to a lesser status. Yet, all serve in the defense of their realm, trading porcelain and natural goods with distant lands. In the rugged mountains, the Zra orcs, born from violence and isolation, forge crude armor from scraps and looted goods. Though crude in craftsmanship, their skill in smelting is unmatched, a testament to their indomitable spirit in the face of adversity.
+
+You reach the end of the book you decide to...
+
+[[Read the first part again|Zernia Races]]
+[[This enough reading and return the book|Askby Library]]
+
+
+:: Zernia Races {"position":"500,1475","size":"100,100"}
+Taylor leads you towards the history section of the library and he pulls out a book titled "Zernia and the known Races" he states that this is the most detailed book they have and states that he has to go back to the counter to help. As he walks away you begin reading about the races of Zernia and learn the many different races.
+
+Rethians: Sentinels of the Highlands
+
+Nestled within the craggy peaks of Nergorumia, the Rethians stand as solitary guardians of their mountainous domain. Despite succumbing to Pozian conquest to the south, these stalwart humans maintain a fierce autonomy, wielding spears and pikes with mastery. Their towering stature, a testament to their highland heritage, belies their prowess in trade, offering bountiful animal goods from wool to leather.
+
+Elladani: Riders of the Northern Winds
+
+Once nomadic wanderers, the Elladani now claim dominion over the northern reaches of Korla. Their mastery of equine warfare, whether as cavalry or charioteers, has struck fear into the hearts of unprepared adversaries for centuries. Among their myriad accomplishments, none shine brighter than the marble statues adorning their settlements, crafted with skill and reverence by Elladani stonemasons sought after by rulers far and wide.
+
+Pozians: Lords of the Seas
+
+Born from the restless waves, the Pozians emerge as adept sailors and cunning pirates, carving their legacy upon the shores of the Nergorumian Kingdom. Once masters of the Karlan-Midrin Isles, their maritime dominion waned amidst the tumult of wars and revolts, relinquishing their overseas holdings. Yet, their seafaring prowess endures, a testament to their indomitable spirit upon the vast expanse of the sea.
+
+Zaxsen: Warriors of the Wilds
+
+In the shadowed depths of northwest Korla, the Zaxsen hold sway, their ferocity matched only by their skill in axe craft. Masters of the forest, they navigate its labyrinthine depths with ease, forging weapons of unparalleled quality and trading them with equal fervor. Though their recklessness in battle oft leads to attrition, the Zaxsen remain a force to be reckoned with, their resolve unyielding as the ancient oaks they call home.
+
+Terathi: Guardians of the Desert Sands
+
+Amidst the unforgiving deserts of southern Korla, the Terathi find solace in their mastery of desert warfare. Mounted upon swift camels, they strike with precision under the burning sun, their navy a formidable bulwark against would-be invaders seeking to plunder the fertile eastern provinces. Through sand and sea, the Terathi endure, their resolve unbroken amidst the arid expanse.
+
+Rui: Keepers of the Waters
+
+Beside the tranquil shores of the great Lake Dourinha, the Rui ply their trade, their livelihood intertwined with the ebb and flow of its waters. Peaceful traders and skilled fishermen, they traverse the watery expanses with ease, their swiftness matched only by their prowess in swamp warfare. Clad in scale armor, they strike with the fury of a tempest, their resilience mirrored in the currents they call home.
+
+Latam: Guardians of the Obsidian Realm
+
+Amidst the shadowed slopes of Mt. Koric, the Latam carve their legacy in obsidian, their weapons honed to a deadly edge. Unlike their peaceful Rui neighbors, the Latam are warriors born, their raids for prisoners a testament to their martial prowess. Light armor adorns their frames, hastening their advance in battle, their resolve unyielding as the mountain peaks from whence they draw their strength.
+
+Gariyar: Riders of the Wyrm
+
+Southward, beyond the main horde, lie the lands of the Gariyar, marked by prophecy and steeped in mystery. Led by the visionary Chief Garit I, they settled the southern reaches of Korla, trading goods akin to their Lus brethren but with a unique twist. Masters of dragon and wyrm riding, they strike fear into the hearts of their foes, their enigmatic presence shrouded in legend and myth.
+
+Lus: Nomads of the Windswept Plains
+
+Across the windswept plains of Korla roam the Lus, kin to the Elladani yet steadfast in their nomadic traditions. Skilled herders and raiders, they traverse the land with ease, their trade in animal products a testament to their resourcefulness. Unlike many, the Lus value skill over lineage, their worth measured by the mastery of their craft rather than the blood that flows within their veins.
+
+Fascinated by their histories you decide that....
+
+[[This enough reading and return the book|Askby Library]]
+[[You read the book further and flip to the next page|Zernia Race]]
+
+
+:: ammochange {"position":"300,200","size":"100,100"}
+<<ammoSelector>>
+
+
+:: armor select dialog [nobr dialog] {"position":"175,100","size":"100,100"}
+<p>Select a new armor set to equip:</p>
+<ul>
+    <<for _armor range $armor.list>>
+        <<capture _armor>>
+            <li><<button `"Equip " + _armor`>>
+                <<run Dialog.close()>>
+                <<run setup.equip("armor", _armor)>>
+                <<replace "#caption-stats">><<include "stat display">><</replace>>
+            <</button>></li>
+        <</capture>>
+    <</for>>
+</ul>
+
+
+:: consumable {"position":"600,825","size":"100,100"}
+<<consumable "bandage">>
+    <<set $player.health.current to Math.clamp($player.health.current + 5, 0, $player.health.max)>>
+    <<replace "#hp">><<= $player.health.current>><</replace>>
+<<description>>
+    A basic bandage to patch up minor wounds in the field.
+<</consumable>>
+
+<<consumable "health vial">>
+    <<set $player.health.current to Math.clamp($player.health.current + 10, 0, $player.health.max)>>
+    <<replace "#hp">><<= $player.health.current>><</replace>>
+<<description>>
+    A vial of health great for instantly recovering small cuts.
+<</consumable>>
+
+<<consumable "health potion">>
+    <<set $player.health.current to Math.clamp($player.health.current + 15, 0, $player.health.max)>>
+    <<replace "#hp">><<= $player.health.current>><</replace>>
+<<description>>
+    A health potion standard gear for anyone who needs a quick pick me up.
+<</consumable>>
+
+
+
+
+:: craftmap {"position":"500,825","size":"100,100"}
+<<set setup.recipes = new Map([
+    ["bandage", { cloth : 1}],
+    ["axe", { wood : 3, stone :  1 }]
+])>>
+
+<<set setup.spellmap = new Map([
+	["Fireball", { "mystic ink" : 1, "enchanted wood" : 1}],
+	["Earth Shard", { "mystic ink" : 1, "glyph stone" : 1}],
+	["Arcane Bolt", { "mystic ink" : 1, "enchanted paper" : 1}],
+	["Healing Glow", { "mystic ink" : 1, "enchanted paper" : 1}],
+	["Dark Strike", { "mystic ink" : 1, "enchanted paper" : 1}]
+])>>
+
+<<set setup.refine = [
+    { item: "cloth", materials: { cotton: 5 } },
+    { item: "cloth", materials: { wool: 2 } }
+]>>
+
+
+:: enemy {"position":"300,825","size":"100,100"}
+//goblins/orcs//
+
+<<set $goblin = {
+    name: "Goblin",
+    attack: 1,
+    defense: 1,
+    agility: 4,
+    health: {
+        current: 5,
+        max: 5
+    }
+}>>
+
+<<set $orc = {
+    name: "Orc",
+    attack: 2,
+    defense: 2,
+    agility: 2,
+    health: {
+        current: 10,
+        max: 10
+    }
+}>>
+
+<<set $Zra_orc = {
+    name: "Zra orc",
+    attack: 5,
+    defense: 3,
+    agility: 3,
+    health: {
+        current: 15,
+        max: 15
+    }
+}>>
+
+
+<<set $ogre = {
+    name: "Ogre",
+    attack: 4,
+    defense: 4,
+    agility: 1,
+    health: {
+        current: 30,
+        max: 30
+    }
+}>>
+
+<<set $troll = {
+    name: "Troll",
+    attack: 6,
+    defense: 5,
+    agility: 3,
+    health: {
+        current: 30,
+        max: 30
+    }
+}>>
+
+//Bandits//
+
+<<set $bandit = {
+    name: "Bandit",
+    attack: 2,
+    defense: 1,
+    agility: 4,
+    health: {
+        current: 10,
+        max: 10
+    }
+}>>
+
+<<set $deserter = {
+    name: "Deserter",
+    attack: 4,
+    defense: 3,
+    agility: 4,
+    health: {
+        current: 25,
+        max: 25
+    }
+}>>
+
+<<set $brigand = {
+    name: "Brigand",
+    attack: 6,
+    defense: 5,
+    agility: 3,
+    health: {
+        current: 30,
+        max: 30
+    }
+}>>
+
+<<set $footpad = {
+    name: "Footpad",
+    attack: 4,
+    defense: 3,
+    agility: 6,
+    health: {
+        current: 25,
+        max: 25
+    }
+}>>
+
+<<set $highwayman = {
+    name: "Highwayman",
+    attack: 4,
+    defense: 2,
+    agility: 9,
+    health: {
+        current: 20,
+        max: 20
+    }
+}>>
+
+<<set $pirate = {
+    name: "Pirate",
+    attack: 4,
+    defense: 4,
+    agility: 3,
+    health: {
+        current: 20,
+        max: 20
+    }
+}>>
+
+<<set $corsair = {
+    name: "Corsair",
+    attack: 6,
+    defense: 3,
+    agility: 4,
+    health: {
+        current: 20,
+        max: 20
+    }
+}>>
+
+<<set $buccaneer = {
+    name: "Buccaneer",
+    attack: 5,
+    defense: 2,
+    agility: 5,
+    health: {
+        current: 20,
+        max: 20
+    }
+}>>
+
+<<set $assassin = {
+    name: "Assassin",
+    attack: 6,
+    defense: 2,
+    agility: 9,
+    health: {
+        current: 25,
+        max: 25
+    }
+}>>
+
+<<set $raider = {
+    name: "Raider",
+    attack: 5,
+    defense: 4,
+    agility: 4,
+    health: {
+        current: 25,
+        max: 25
+    }
+}>>
+
+<<set $marauder = {
+    name: "Marauder",
+    attack: 5,
+    defense: 2,
+    agility: 6,
+    health: {
+        current: 25,
+        max: 25
+    }
+}>>
+
+<<set $highlander = {
+    name: "Highlander",
+    attack: 8,
+    defense: 4,
+    agility: 7,
+    health: {
+        current: 30,
+        max: 30
+    }
+}>>
+
+//Esoterics//
+
+<<set $warlock = {
+    name: "Warlock",
+    attack: 4,
+    defense: 3,
+    agility: 5,
+    health: {
+        current: 20,
+        max: 20
+    }
+}>>
+
+<<set $demon = {
+    name: "Demon",
+    attack: 10,
+    defense: 10,
+    agility: 8,
+    health: {
+        current: 50,
+        max: 50
+    }
+}>>
+
+<<set $demoness = {
+    name: "Demoness",
+    attack: 10,
+    defense: 9,
+    agility: 10,
+    health: {
+        current: 45,
+        max: 45
+    }
+}>>
+
+<<set $golem = {
+    name: "Golem",
+    attack: 5,
+    defense: 7,
+    agility: 3,
+    health: {
+        current: 50,
+        max: 50
+    }
+}>>
+
+<<set $treant = {
+    name: "Treant",
+    attack: 5,
+    defense: 3,
+    agility: 3,
+    health: {
+        current: 25,
+        max: 25
+    }
+}>>
+
+//Wilds//
+
+<<set $bear = {
+    name: "bear",
+    attack: 7,
+    defense: 4,
+    agility: 5,
+    health: {
+        current: 50,
+        max: 50
+    }
+}>>
+
+
+
+:: equipchange {"position":"300,100","size":"100,100"}
+Your current equipment:
+
+<<equip_weapon>>
+
+<<equip_armor>>
+
+<<equip_shield>>
+
+
+:: equipment {"position":"200,625","size":"100,100"}
+<<set $adjustments = {
+    weapon : {
+        attack : 0,
+        defense : 0,
+        agility : 0
+    },
+    armor : {
+        attack : 0,
+        defense : 0,
+        agility : 0   
+    },
+    shield : {
+        attack : 0,
+        defense : 0,
+        agility : 0
+   }
+}>>
+
+/* weapons */
+<<set setup.weapon = new Map([
+    ["dagger", {
+        attack : 2,
+        defense : 0,
+        agility : 2,
+        tag : "dagger",
+        isRanged : false
+    }],
+    ["arming sword", {
+    	attack : 5,
+        defense : 3,
+        agility : 0,
+        tag : "sword",
+        isRanged : false
+    }],
+    ["katana", {
+        attack : 5,
+        defense : 2,
+        agility : 1,
+        tag : "sword",
+        isRanged : false
+    }],
+    ["falcata", {
+        attack : 3,
+        defense : 0,
+        agility : 1,
+        tag : "sword",
+        isRanged : false
+    }],
+    ["scimitar", {
+        attack : 4,
+        defense : 1,
+        agility : 2,
+        tag : "sword",
+        isRanged : false
+    }],
+    ["khopesh", {
+        attack : 3,
+        defense : 1,
+        agility : 0,
+        tag : "sword",
+        isRanged : false
+    }],
+    ["claymore", {
+        attack : 7,
+        defense : -1,
+        agility : -2,
+        tag : "great-weapon",
+        isRanged : false
+    }],
+    ["zaxzan axe", {
+        attack : 6,
+        defense : -1,
+        agility : -1,
+        tag : "great-weapon",
+        isRanged : false
+    }],
+    ["maul", {
+        attack : 5,
+        defense : 0,
+        agility : -2,
+        tag : "great-weapon",
+        isRanged : false
+    }],
+    ["spear", {
+        attack : 5,
+        defense : 2,
+        agility : -3,
+        tag : "polearm",
+        isRanged : false
+    }],
+    ["halberd", {
+        attack : 6,
+        defense : 1,
+        agility : -2,
+        tag : "polearm",
+        isRanged : false
+    }],
+    ["pollax", {
+        attack : 5,
+        defense : 3,
+        agility : -1,
+        tag : "polearm",
+        isRanged : false
+    }],
+    ["hand axe", {
+        attack : 4,
+        defense : 0,
+        agility : 0,
+        tag : "axe",
+        isRanged : false
+    }],
+    ["mace", {
+        attack : 3,
+        defense : 1,
+        agility : 1,
+        tag : "mace",
+        isRanged : false
+    }],
+    ["war hammer", {
+        attack : 4,
+        defense : 1,
+        agility : 1,
+        tag : "mace",
+        isRanged : false
+    }],
+    ["bow", {
+        attack : 1,
+        defense : 0,
+        agility : 3,
+        tag : "bow",
+        isRanged : true
+    }],
+     ["long bow", {
+        attack : 5,
+        defense : 0,
+        agility : 1,
+        tag : "bow",
+        isRanged : true
+    }],
+     ["war bow", {
+        attack : 4,
+        defense : 0,
+        agility : 2,
+        tag : "bow",
+        isRanged : true
+    }],
+     ["sling", {
+        attack : 0,
+        defense : 0,
+        agility : 5,
+        tag : "sling",
+        isRanged : false
+    }],
+     ["fustibalus", {
+        attack : 1,
+        defense : 0,
+        agility : 4,
+        tag : "sling",
+        isRanged : true
+    }],
+     ["crossbow", {
+        attack : 4,
+        defense : 0,
+        agility : 1,
+        tag : "crossbow",
+        isRanged : true
+    }],
+     ["arbalest", {
+        attack : 7,
+        defense : -1,
+        agility : -1,
+        tag : "crossbow",
+        isRanged : true
+    }],
+     ["arquebus", {
+        attack : 6,
+        defense : -1,
+        agility : -2,
+        tag : "firearm",
+        isRanged : true
+    }],
+    ["handgonne", {
+        attack : 8,
+        defense : -2,
+        agility : -3,
+        tag : "hand cannon",
+        isRanged : true
+    }]
+])>>
+/* armor */
+<<set setup.armor = new Map([
+    ["cloth", {
+        attack : 0,
+        defense : 0,
+        agility : 2
+    }],
+    ["leather", {
+        attack : 0,
+        defense : 2,
+        agility : 0
+    }],
+    ["mail", {
+        attack : 0,
+        defense : 5,
+        agility : -2
+    }],
+    ["plate", {
+        attack : 0,
+        defense : 8,
+        agility : -4
+    }]
+])>>
+
+<<set setup.shield = new Map([
+    ["targe", {
+        attack : 0,
+        defense : 3,
+        agility : 1
+    }],
+    ["ikem", {
+        attack : 0,
+        defense : 2,
+        agility : 0
+    }],
+    ["kite shield", {
+        attack : 0,
+        defense : 5,
+        agility : -2
+    }],
+    ["heater shield", {
+        attack : 0,
+        defense : 8,
+        agility : -4
+    }],
+    ["oval shield", {
+        attack : 0,
+        defense : 4,
+        agility : -1
+    }],
+    ["tower shield", {
+        attack : 0,
+        defense : 15,
+        agility : -6
+    }],
+    ["pavise shield", {
+        attack : 0,
+        defense : 12,
+        agility : -5
+    }],
+    ["round shield", {
+        attack : 0,
+        defense : 4,
+        agility : 2
+    }],
+    ["huscarl shield", {
+        attack : 0,
+        defense : 5,
+        agility : 1
+    }]
+])>>
+
+
+:: equipment selector [widget nobr] {"position":"175,300","size":"100,100"}
+<<widget "equip_weapon">>
+    Current weapon: 
+    <<button `$weaponSlot.toUpperFirst() || "Nothing"`>>
+        <<run Dialog.setup("Change Weapon"); 
+            Dialog.wiki(Story.get("weapon select dialog").processText()); 
+            Dialog.open()>>
+    <</button>>
+<</widget>>
+
+<<widget "equip_armor">>
+    Current armor: 
+    <<button `$armorSlot.toUpperFirst() || "Nothing"`>>
+        <<run Dialog.setup("Change Weapon"); 
+            Dialog.wiki(Story.get("armor select dialog").processText()); 
+            Dialog.open()>>
+    <</button>>
+<</widget>>
+
+<<widget "equip_shield">>
+    Current shield: 
+    <<button `$shieldSlot.toUpperFirst() || "Nothing"`>>
+        <<run Dialog.setup("Change Weapon"); 
+            Dialog.wiki(Story.get("shield select dialog").processText()); 
+            Dialog.open()>>
+    <</button>>
+<</widget>>
+
+
+:: functions {"position":"200,725","size":"100,100"}
+<<set setup.equip = function equip(slot, item) {
+    let adj;
+    if (slot !== "weapon" && slot !== "armor" && slot !== "shield") {
+        throw new Error(`Invalid gear slot: ${slot}`);
+    }
+    if (item === "") {
+        adj = clone({ attack: 0, defense: 0, agility: 0, tag: "", isRanged: false });
+    } else {
+        adj = setup[slot].get(item);
+    }
+    if (!adj) {
+        throw new Error(`Invalid ${slot}: ${item}`);
+    }
+    if (slot === "weapon") {
+        $weaponSlot = item;
+        $player.tag = adj.tag || ""; // Update player tag
+        $player.isRanged = adj.isRanged || false; // Update player isRanged
+    } else if (slot === "armor") {
+        $armorSlot = item;
+    } else if (slot === "shield") {
+        $shieldSlot = item;
+        }
+    $adjustments[slot] = clone(adj);
+}>>
+
+<<set setup.getStat = function getStat (stat) {
+    if (ndef $player[stat]) {
+        throw new Error(`Invalid stat: ${stat}`);
+    }
+    let ret = Math.trunc(Math.clamp($player[stat] + $adjustments.weapon[stat] + $adjustments.armor[stat], 1, 99));
+    if (Number.isNaN(ret)) {
+        ret = 1;
+    }
+    return ret;
+}>>
+
+
+:: loot [widget nobr] {"position":"50,550","size":"100,100"}
+<<widget "loot">>
+    <<set _enem = $cur_enemy>>
+    <<if _enem.name is "Goblin">>
+        <<pickup $backpack "metal scrap" 3>>
+        You loot 3 metal scrap from the goblin!
+    <<elseif _enem.name is "Orc">>    
+        <<pickup $backpack "metal scrap" 4>>
+        You loot 4 metal scrap from the orc!
+    <<elseif _enem.name is "Ogre">>    
+        <<pickup $backpack "metal scrap" 8>>
+        You loot 8 metal scrap from the ogre!
+    <<elseif _enem.name is "Zra orc">>    
+        <<pickup $backpack "metal scrap" 10>>
+        <<pickup $backpack "iron" 1>>
+        You loot 10 metal scrap and 1 iron from the Zra orc!
+    <</if>>
+<</widget>>
+
+
+:: price {"position":"600,725","size":"100,100"}
+<<set setup.prices = new Map([
+	["cloth", 50],
+    ["cotton", 5],
+    ["wool", 10],
+    ["linen", 15],
+    ["hide", 20],
+    ["furs", 50],
+    ["animal skins", 10],
+    ["pelt", 20],
+    ["leather", 80],
+    ["bamboo", 1],
+    ["wood pulp", 2],
+    ["timber", 30],
+    ["paper", 5],
+    ["papyrus", 5],
+    ["hemp", 2],
+    ["rope", 10],
+    ["book", 20],
+    ["indgio", 30],
+    ["madder root", 15],
+    ["woad", 5],
+    ["turmeric", 10],
+    ["saffron", 100],
+    ["lichen", 5],
+    ["highland dye", 25],
+    ["red dye", 50],
+    ["sea dye", 100],
+    ["purple dye", 40],
+    ["yellow dye", 60],
+    ["green dye", 70],
+    ["sun dye", 120],
+    ["sky cloth", 100],
+    ["red cloth", 120],
+    ["sea fabric", 150],
+    ["yellow cloth", 120],
+    ["amethyst fabric", 100],
+    ["wood weave", 150],
+    ["sun satin", 200],
+    ["flax", 2],
+    ["rye", 3],
+    ["wheat", 3],
+    ["oat", 3],
+    ["barley", 3],
+    ["millet", 3],
+    ["rice", 2],
+    ["rye flour", 5],
+    ["wheat flour", 5],
+    ["barley flour", 5],
+    ["rye bread", 10],
+    ["wheat bread", 10],
+    ["oatmeal", 5],
+    ["barley stew", 15],
+    ["millet porridge", 5],
+    ["water", 1],
+    ["corn", 3],
+    ["cornmeal", 5],
+    ["potato", 2],
+    ["carrot", 2],
+    ["hops", 5],
+    ["honey", 10],
+    ["sugarcane", 5],
+    ["sugar", 8],
+    ["grape", 2],
+    ["juniper berry", 2],
+    ["fruits", 5],
+    ["vegetables", 3],
+    ["pork", 8],
+    ["beef", 10],
+    ["chicken", 5],
+    ["fish", 6],
+    ["venison", 12],
+    ["brilscale", 50],
+    ["metal scrap", 1],
+    ["iron ore", 10],  
+    ["copper ore", 12],
+    ["silver ore", 50],
+    ["gold ore", 100],
+    ["lead ore", 15],
+    ["tin ore", 10],
+    ["zinc ore", 20],
+    ["iron", 15],
+    ["copper", 20],
+    ["bronze", 25],
+    ["tin", 20],
+    ["steel", 50],
+    ["silver", 100],
+    ["gold", 500],
+    ["lead", 30],
+    ["brass", 30],
+    ["zinc", 25],
+    ["oil", 5],
+    ["paint", 8],
+    ["clay", 2],
+    ["porcelin", 10],
+    ["gems", 50],
+    ["coal", 5],
+    ["charcoal", 3],
+    ["black powder", 15],
+    ["herbs", 3],
+    ["tar", 5],
+    ["marble", 10],
+    ["wood carving", 20],
+    ["cloth toy", 8],
+    ["mead", 15],
+    ["wine", 20],
+    ["beer", 10],
+    ["whisky", 30],
+    ["brandy", 25],
+    ["olka", 20],
+    ["agve", 10],
+    ["tequila", 25],
+    ["gin", 20],
+    ["tea leaves", 5],
+    ["tea", 10],
+    ["kavee bean", 15],
+    ["kavee drink", 25],
+    ["plumquas", 5],
+    ["plumquas pie", 10],
+    ["meat pie", 8],
+    ["ink", 5],
+    ["feathers", 3],
+    ["flint", 2],
+    ["obsidian", 5],
+    ["herbs", 3],
+    ["pepper", 3],
+    ["cinnamon", 5],
+    ["cloves", 5],
+    ["nuts", 4],
+    ["salt", 2],
+    ["pottery", 10],
+    ["lyre", 50],
+    ["string", 3],
+    ["lute", 80],
+    ["flute", 60],
+    ["trumpet", 100],
+    ["milk", 3],
+    ["cheese", 8],
+    ["glass", 10],
+    ["glassware", 20],
+    ["sand", 1],
+    ["resin", 5],
+    ["lacquerware", 30],
+    ["ivory", 200],
+    ["tome", 100], 
+    ["glyph stone", 100],
+    ["mystic ink", 40],
+    ["enchanted paper", 55],
+    ["magi ore", 55],
+    ["enchanted wood", 55],
+    ["bloodstone", 130],
+    ["jewelry", 50],
+    ["crab", 20],
+    ["clam", 10],
+    ["oyster", 20],
+    ["shrimp", 10],
+    ["lobster", 20],
+    ["mutton", 15],
+    ["salmon", 20],
+    ["pearl", 40],
+    ["sulfur", 5],
+    ["mushroom", 5],
+    ["glass bottle", 10]
+])>>
+
+
+:: quests {"position":"400,825","size":"100,100"}
+<<set $lastport to "NONE">> /*Last Port variable*/
+
+/*Bountry Quest variables*/
+<<set $bountyActive = false>>
+<<set $bountyEnemy = null>>
+<<set $spawnbounty = 0>>
+<<set $bountyGoal = 0>>
+<<set $bountyCount = 0>>
+<<set $bountyReward = 0>>
+
+
+:: repeat-quest [widget nobr] {"position":"50,850","size":"100,100"}
+<<widget "bounty1">>
+
+<</widget>>
+
+
+:: shield select dialog [nobr dialog] {"position":"175,200","size":"100,100"}
+<p>Select a new shield to equip:</p>
+<ul>
+    <<for _shield range $shield.list>>
+        <<capture _shield>>
+            <li><<button `"Equip " + _shield`>>
+                <<run Dialog.close()>>
+                <<run setup.equip("shield", _shield)>>
+                <<replace "#caption-stats">><<include "stat display">><</replace>>
+            <</button>></li>
+        <</capture>>
+    <</for>>
+</ul>
+
+
+:: spawn [widget nobr] {"position":"50,475","size":"100,100"}
+<<widget "centrals">>
+<<set $spawn = random(1, 100)>>
+    <<if $spawn >= 90>>
+        <<set _temp = Object.assign({}, $goblin)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <<elseif $spawn >= 80 && $spawn < 90>>
+        <<set _temp = Object.assign({}, $orc)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <<elseif $spawn >= 70 && $spawn < 80>>
+        <<set _temp = Object.assign({}, $ogre)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <</if>>
+<</widget>>
+
+<<widget "north">>
+<<set $spawn = random(1, 100)>>
+    <<if $spawn >= 90>>
+        <<set _temp = Object.assign({}, $bandit)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <<elseif $spawn >= 80 && $spawn < 90>>
+        <<set _temp = Object.assign({}, $orc)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <<elseif $spawn >= 70 && $spawn < 80>>
+        <<set _temp = Object.assign({}, $ogre)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <<elseif $spawn >= 50 && $spawn < 70>>
+        <<set _temp = Object.assign({}, $Zra_orc)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <</if>>
+<</widget>>
+
+<<widget "outskirt_1">>
+<<set $spawn = random(1, 100)>>
+    <<if $spawn >= 90>>
+        <<set _temp = Object.assign({}, $Zra_orc)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <<elseif $spawn >= 80 && $spawn < 90>>
+        <<set _temp = Object.assign({}, $orc)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <<elseif $spawn >= 60 && $spawn < 80>>
+        <<set _temp = Object.assign({}, $bandit)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <<elseif $spawn >= 40 && $spawn < 60>>
+        <<set _temp = Object.assign({}, $goblin)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <<elseif $spawn >= 20 && $spawn < 40>>
+        <<set _temp = Object.assign({}, $footpad)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <<elseif $spawn >= 10 && $spawn < 20>>
+        <<set _temp = Object.assign({}, $ogre)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>>
+    <</if>>
+<</widget>>
+
+<<widget "debug">>
+        <<set _temp = Object.assign({}, $ogre)>>
+        <<set $cur_enemy = _temp>>
+        <<set $inbattle to true>><</widget>>
+
+
+:: stat display [nobr] {"position":"50,200","size":"100,100"}
+<h3>Stats</h3>
+<p>Attack: <<= setup.getStat("attack")>></p>
+<p>Defense: <<= setup.getStat("defense")>></p>
+<p>Agility: <<= setup.getStat("agility")>></p>
+
+
+:: vil_rng [widget nobr] {"position":"50,625","size":"100,100"}
+<<widget "work_field">>
+    <<set $spawn_output = random(1, 100)>>
+    <<set $cur_output = "">>
+    <<set $num_out = 0>>
+    
+    <<for _field range $field_table>>
+    <<if $spawn_output >=  _field.range[0] && $spawn_output <=  _field.range[1]>>
+        <<set $cur_output =  _field.output>>
+        <<break>>
+    <</if>>
+<</for>>
+        
+    <<if $spawn_output >=70>>
+	<<set $num_out =$num_out + 5>>
+    <<else>>
+	<<set $num_out =$num_out + 10>>
+    <</if>>
+    <<pickup $backpack $cur_output $num_out>>
+    <<set $cur_stamina -= 3>>
+    <<run UI.alert("You earned " + $num_out + " " + $cur_output)>>
+    <<goto $curpassage>>
+<</widget>>
+
+<<widget "work_mine">>
+	<<set $spawn_output = random(1, 100)>>
+    
+    <<for _ore range $ore_table>>
+    <<if $spawn_output >= _ore.range[0] && $spawn_output <= _ore.range[1]>>
+        <<set $cur_output = _ore.output>>
+        <<break>>
+    <</if>>
+    <</for>>
+    
+    <<set $num_out = random(1, 10)>>
+    <<pickup $backpack $cur_output $num_out>>
+     <<set $cur_stamina -= 3>>
+    <<run UI.alert("You earned " + $num_out + " " + $cur_output)>>
+     <<goto $curpassage>>
+<</widget>>
+
+<<widget "hunt">>
+	<<set $spawn_output = random(1, 100)>>
+    
+    <<for _hunt of $hunt_table>>
+    <<if $spawn_output >= _hunt.range[0] && $spawn_output <= _hunt.range[1]>>
+        <<set $cur_output = _hunt.output>>
+        <<break>>
+    <</if>>
+    
+    <<set $num_out = random(1, 5)>>
+    <<pickup $backpack $cur_output $num_out>>
+     <<set $cur_stamina -= 3>>
+    <<run UI.alert("You earned " + $num_out + " " + $cur_output)>>
+     <<goto $curpassage>>
+<</widget>>
+
+
+:: weapon select dialog [nobr dialog] {"position":"175,0","size":"100,100"}
+<p>Select a new weapon to equip:</p>
+<ul>
+    <<for _weapon range $weapons.list>>
+        <<capture _weapon>>
+            <li><<button `"Equip " + _weapon`>>
+                <<run Dialog.close()>>
+                <<run setup.equip("weapon", _weapon)>>
+                <<replace "#caption-stats">><<include "stat display">><</replace>>
+            <</button>></li>
+        <</capture>>
+    <</for>>
+</ul>
+
+
+:: widgets [widget nobr] {"position":"50,300","size":"100,100"}
+<<widget "gold">>
+    <<set $gold to Math.clamp($gold + _args[0], 0, Infinity)>>
+    <<replace "#gold">><<= $gold>><</replace>>
+<</widget>>
+
+<<widget "buylink">>
+    <<set _item to _args[0]>>
+    <<set _amount to _args[1]>>
+    <<set _price to setup.prices.get(_item) || 1>>
+    <p @data-item="_item" class="buy-listing">
+        <span>_item</span> 
+        <span class="count">_amount</span> 
+        <span class="buy-link">
+            <<capture _item, _amount, _price>>
+                <<link "Buy">>
+                    <<if $gold < _price>>
+                        <<run UI.alert("You don't have enough gold!")>>
+                    <<else>>
+                        <<gold `-1 * _price`>>
+                        <<transfer $shop $backpack _item 1>>
+                        <<set _amount -->>
+                        <<if _amount > 0>>
+                            <<replace `"p.buy-listing[data-item=\"" + _item + "\"] > .count"`>>_amount<</replace>>
+                        <<else>>
+                            <<remove `"p.buy-listing[data-item=\"" + _item + "\"]"`>>
+                        <</if>>
+                    <</if>>
+                <</link>>
+            <</capture>>
+        </span>
+    </p>
+<</widget>>
+
+<<widget "buylinkweapon">>
+    <<set _item to _args[0]>>
+    <<set _amount to _args[1]>>
+    <<set _price to setup.prices.get(_item) || 1>>
+    <p @data-item="_item" class="buy-listing">
+        <span>_item</span> 
+        <span class="count">_amount</span> 
+        <span class="buy-link">
+            <<capture _item, _amount, _price>>
+                <<link "Buy">>
+                    <<if $gold < _price>>
+                        <<run UI.alert("You don't have enough gold!")>>
+                    <<else>>
+                        <<gold `-1 * _price`>>
+                        <<transfer $shopweapon $weapons _item 1>>
+                        <<set _amount -->>
+                        <<if _amount > 0>>
+                            <<replace `"p.buy-listing[data-item=\"" + _item + "\"] > .count"`>>_amount<</replace>>
+                        <<else>>
+                            <<remove `"p.buy-listing[data-item=\"" + _item + "\"]"`>>
+                        <</if>>
+                    <</if>>
+                <</link>>
+            <</capture>>
+        </span>
+    </p>
+<</widget>>
+
+<<widget "buylinkarmor">>
+    <<set _item to _args[0]>>
+    <<set _amount to _args[1]>>
+    <<set _price to setup.prices.get(_item) || 1>>
+    <p @data-item="_item" class="buy-listing">
+        <span>_item</span> 
+        <span class="count">_amount</span> 
+        <span class="buy-link">
+            <<capture _item, _amount, _price>>
+                <<link "Buy">>
+                    <<if $gold < _price>>
+                        <<run UI.alert("You don't have enough gold!")>>
+                    <<else>>
+                        <<gold `-1 * _price`>>
+                        <<transfer $shoparmor $armor _item 1>>
+                        <<set _amount -->>
+                        <<if _amount > 0>>
+                            <<replace `"p.buy-listing[data-item=\"" + _item + "\"] > .count"`>>_amount<</replace>>
+                        <<else>>
+                            <<remove `"p.buy-listing[data-item=\"" + _item + "\"]"`>>
+                        <</if>>
+                    <</if>>
+                <</link>>
+            <</capture>>
+        </span>
+    </p>
+<</widget>>
+
+<<widget "buylinkheals">>
+    <<set _item to _args[0]>>
+    <<set _amount to _args[1]>>
+    <<set _price to setup.prices.get(_item) || 1>>
+    <p @data-item="_item" class="buy-listing">
+        <span>_item</span> 
+        <span class="count">_amount</span> 
+        <span class="buy-link">
+            <<capture _item, _amount, _price>>
+                <<link "Buy">>
+                    <<if $gold < _price>>
+                        <<run UI.alert("You don't have enough gold!")>>
+                    <<else>>
+                        <<gold `-1 * _price`>>
+                        <<transfer $shopheal $pouch _item 1>>
+                        <<set _amount -->>
+                        <<if _amount > 0>>
+                            <<replace `"p.buy-listing[data-item=\"" + _item + "\"] > .count"`>>_amount<</replace>>
+                        <<else>>
+                            <<remove `"p.buy-listing[data-item=\"" + _item + "\"]"`>>
+                        <</if>>
+                    <</if>>
+                <</link>>
+            <</capture>>
+        </span>
+    </p>
+<</widget>>
+
+<<widget "buylinkshield">>
+    <<set _item to _args[0]>>
+    <<set _amount to _args[1]>>
+    <<set _price to setup.prices.get(_item) || 1>>
+    <p @data-item="_item" class="buy-listing">
+        <span>_item</span> 
+        <span class="count">_amount</span> 
+        <span class="buy-link">
+            <<capture _item, _amount, _price>>
+                <<link "Buy">>
+                    <<if $gold < _price>>
+                        <<run UI.alert("You don't have enough gold!")>>
+                    <<else>>
+                        <<gold `-1 * _price`>>
+                        <<transfer $shopshield $shield _item 1>>
+                        <<set _amount -->>
+                        <<if _amount > 0>>
+                            <<replace `"p.buy-listing[data-item=\"" + _item + "\"] > .count"`>>_amount<</replace>>
+                        <<else>>
+                            <<remove `"p.buy-listing[data-item=\"" + _item + "\"]"`>>
+                        <</if>>
+                    <</if>>
+                <</link>>
+            <</capture>>
+        </span>
+    </p>
+<</widget>>
+
+
+:: StoryScript [script]
+// dialog API macro set, by chapel; for sugarcube 2
+// version 1.3.0
+// see the documentation: https://github.com/ChapelR/custom-macros-for-sugarcube-2#dialog-api-macros
+
+config.history.controls = false;
+
+Config.navigation.override = function (dest) {
+    if (dest !== "Death" && $player.health.current <= 0) {
+        return "Death";
+    }
+};
+
+Config.navigation.override = function (dest) {
+    if ($player.isRanged === false)
+    {
+  	$ammoSlot = null;
+    }
+  	if ($ammoSlot === $backpack.has($ammoSlot))
+    {
+   	$ammoSlot = null;
+    }
+  	return dest;
+};
+
+Config.navigation.override = function (dest) {
+  State.variables.curpassage = dest;
+  	return dest;
+};
+
+// <<dialog>> macro
+Macro.add('dialog', {
+       tags : ['onopen', 'onclose'],
+    handler : function () {
+        
+        // handle args (if any)
+        var errors = [];
+        var content = '', onOpen = null, onClose = null;
+        var title = (this.args.length > 0) ? this.args[0] : '';
+        var classes = (this.args.length > 1) ? this.args.slice(1).flatten() : [];
+
+        this.payload.forEach( function (pl, idx) {
+            if (idx === 0) {
+                content = pl.contents;
+            } else {
+                if (pl.name === 'onopen') {
+                    onOpen = onOpen ? onOpen + pl.contents : pl.contents;
+                } else {
+                    onClose = onClose ? onClose + pl.contents : pl.contents;
+                }
+            }
+        });
+        
+        // add the macro- class
+        classes.push('macro-' + this.name);
+        
+        // dialog box
+        Dialog.setup(title, classes.join(' '));
+        Dialog.wiki(content);
+
+        // should these be shadowWrapper-aware?
+        if (onOpen && typeof onOpen === 'string' && onOpen.trim()) {
+            $(document).one(':dialogopened', function () {
+                $.wiki(onOpen);
+            });
+        }
+
+        if (onClose && typeof onClose === 'string' && onClose.trim()) {
+            $(document).one(':dialogclosed', function () {
+                $.wiki(onClose);
+            });
+        }
+
+        Dialog.open();
+        
+    }
+
+});
+
+// <<popup>> macro
+Macro.add('popup', {
+    handler : function () {
+        
+        // errors
+        if (this.args.length < 1) {
+            return this.error('need at least one argument; the passage to display');
+        }
+        if (!Story.has(this.args[0])) {
+            return this.error('the passage ' + this.args[0] + 'does not exist');
+        }
+        
+        // passage name and title
+        var psg   = this.args[0];
+        var title = (this.args.length > 1) ? this.args[1] : '';
+        var classes = (this.args.length > 2) ? this.args.slice(2).flatten() : [];
+        
+        // add the macro- class
+        classes.push('macro-' + this.name);
+        
+        // dialog box
+        Dialog.setup(title, classes.join(' '));
+        Dialog.wiki(Story.get(psg).processText());
+        Dialog.open();
+        
+    }
+
+});
+
+// <<dialogclose>> macro
+Macro.add('dialogclose', { 
+    skipArgs : true, 
+    handler : function () {
+        Dialog.close();
+    } 
+});
+// Simple Inventory, for SugarCube 2, by Chapel
+// v3.0.0, 2024-02-20, 1d95a49488446cafefaa956e53345395394e4b51
+;"use strict";function _typeof(t){return _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},_typeof(t)}function _classCallCheck(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function _defineProperties(t,e){for(var n=0;n<e.length;n++){var i=e[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(t,_toPropertyKey(i.key),i)}}function _createClass(t,e,n){return e&&_defineProperties(t.prototype,e),n&&_defineProperties(t,n),Object.defineProperty(t,"prototype",{writable:!1}),t}function _toPropertyKey(t){var e=_toPrimitive(t,"string");return"symbol"==_typeof(e)?e:String(e)}function _toPrimitive(t,e){if("object"!=_typeof(t)||!t)return t;var n=t[Symbol.toPrimitive];if(void 0!==n){var i=n.call(t,e||"default");if("object"!=_typeof(i))return i;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===e?String:Number)(t)}!function(){var t={description:"",handler:null,displayName:"",consumable:!0,unique:!1,permanent:!1},e=new Map,n=function(){function n(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",i=arguments.length>1&&void 0!==arguments[1]?arguments[1]:clone(t),r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:[];if(_classCallCheck(this,n),!e||"string"!=typeof e)throw new Error("invalid item ID");if("object"!==_typeof(i))throw new Error("invalid item definition");Object.assign(this,Object.assign(t,i)),this.id=e,this._tags=r instanceof Array?r:"string"==typeof r?[r]:[]}return _createClass(n,[{key:"tags",get:function(){return this._tags}},{key:"hasTag",value:function(t){return this._tags.includes(t)}},{key:"hasAllTags",value:function(){return this._tags.includesAll([].slice.call(arguments).flat(1/0))}},{key:"hasAnyTags",value:function(){return this._tags.includesAny([].slice.call(arguments).flat(1/0))}},{key:"name",get:function(){return this.displayName||this.id},set:function(t){this.displayName=t}},{key:"use",value:function(){return"string"==typeof this.handler?$.wiki(this.handler):"function"==typeof this.handler&&this.handler(this),this}},{key:"inspect",value:function(){return Dialog.setup(this.name,"simple-inventory item-description"),Dialog.wiki(this.description),Dialog.open(),this}}],[{key:"is",value:function(t){return t instanceof n}},{key:"add",value:function(t,i,r){var a=new n(t,i,r);return e.set(t,a),a}},{key:"get",value:function(t){return e.get(t)}},{key:"has",value:function(t){return e.has(t)}},{key:"list",get:function(){return e}}]),n}();setup.Item=n,window.Item=window.Item||n}(),function(){var t=setup.Item,e=!1,n="&hellip;",i={inspect:"Inspect",use:"Use",drop:"Drop",stack:"stack",take:"Take",give:"Give",stackPre:"&nbsp;&times;&nbsp;",stackPost:"&nbsp;"},r={};function a(e){return t.has(e)&&t.get(e).unique}var s=function(){function s(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:[];_classCallCheck(this,s),this.data=clone(t),this._tags=e instanceof Array?e:"string"==typeof e?[e]:[]}return _createClass(s,[{key:"emit",value:function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return s.emit(t,this,e),this}},{key:"array",get:function(){var t=this,e=[];return Object.keys(this.data).forEach((function(n){if(e.push(n),t.data[n]>1)for(var i=1;i<t.data[n];i++)e.push(n)})),e}},{key:"list",get:function(){return Object.keys(this.data)}},{key:"length",get:function(){return this.array.length}},{key:"uniqueLength",get:function(){return this.list.length}},{key:"table",get:function(){return this.data}},{key:"tags",get:function(){return this._tags}},{key:"hasTag",value:function(t){return this._tags.includes(t)}},{key:"hasAllTags",value:function(){return this._tags.includesAll([].slice.call(arguments).flat(1/0))}},{key:"hasAnyTags",value:function(){return this._tags.includesAny([].slice.call(arguments).flat(1/0))}},{key:"count",value:function(t){return t?this.data[t]||0:this.length}},{key:"has",value:function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:1;return this.data[t]>=e}},{key:"hasAll",value:function(){var t=this;return[].slice.call(arguments).flat(1/0).every((function(e){return t.has(e)}))}},{key:"hasAny",value:function(){var t=this;return[].slice.call(arguments).flat(1/0).some((function(e){return t.has(e)}))}},{key:"compare",value:function(t){var e=this,n=s.itemset(t);return Object.keys(n).every((function(t){return e.has(t,n[t])}))}},{key:"merge",value:function(t){var e=this,n=s.itemset(t);return Object.keys(n).forEach((function(t){s.change(e,t,n[t])})),n}},{key:"unmerge",value:function(t){var e=this,n={},i=s.itemset(t);return Object.keys(i).forEach((function(t){e.has(t,i[t])?n[t]=i[t]:e.has(t)&&(n[t]=e.count(t)),s.change(e,t,i[t],!0)})),n}},{key:"pickup",value:function(){var t=this.merge(s.parseArgList.apply(null,arguments));return this.emit("update",{delta:t}),this}},{key:"drop",value:function(){var t=this.unmerge(s.parseArgList.apply(null,arguments));return this.emit("update",{delta:t}),this}},{key:"empty",value:function(){var t=clone(this.data);return this.data={},this.emit("update",{delta:t}),this}},{key:"transfer",value:function(t){var e=s.parseArgList.apply(null,[].slice.call(arguments).slice(1));if(!s.is(t))throw new TypeError("target inventory is not an inventory instance");var n=this.unmerge(e);return t.merge(n),this.emit("update",{target:t,delta:n}),this}},{key:"isEmpty",value:function(){return 0===this.length}},{key:"iterate",value:function(t){var e=this;return"function"!=typeof t||this.list.forEach((function(n){t(n,e.data[n])})),this}},{key:"use",value:function(e){if(t.has(e)){var n=t.get(e);if(n.use(),n.consumable){s.change(this,e,1,!0);var i={};i[e]=1,this.emit("update",{delta:i})}return this.emit("use",{item:n}),this}}},{key:"clone",value:function(){return new s(this.data||{},this._tags||[])}},{key:"toJSON",value:function(){return JSON.reviveWrapper("new setup.Inventory("+JSON.stringify(this.data)+", "+JSON.stringify(this._tags)+")")}}],[{key:"confirm",get:function(){return e},set:function(t){e="string"==typeof t&&"all"===t.trim().toLowerCase()?"all":"string"==typeof t&&"stack"===t.trim().toLowerCase()?"stack":!!t}},{key:"emptyMessage",get:function(){return n},set:function(t){"string"==typeof t&&(n=t)}},{key:"strings",get:function(){return Object.assign(clone(i),r)},set:function(t){"object"===_typeof(t)&&(r=Object.assign(r,clone(t)))}},{key:"change",value:function(e,n){var i=arguments.length>2&&void 0!==arguments[2]?arguments[2]:1,r=arguments.length>3&&void 0!==arguments[3]&&arguments[3];if(0!==i){if(e instanceof s&&(e=e.data),"object"!==_typeof(e)){if(e)throw new TypeError("cannot access inventory data");e={}}if(!(o=n)||"string"!=typeof o||!o.trim())throw new TypeError("invalid item name/id");var o;if("number"==typeof i&&!Number.isNaN(i)&&Number.isInteger(i)||(i=1),r&&(i*=-1),i>0){if(Object.keys(e).includes(n)&&a(n))return;i>1&&a(n)&&(i=1),Object.keys(e).includes(n)||(e[n]=0),e[n]+=i}else{if(function(e){return t.has(e)&&t.get(e).permanent}(n))return;Object.keys(e).includes(n)&&"number"==typeof e[n]&&(e[n]+=i),e[n]<=0&&delete e[n]}return e}}},{key:"itemset",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(s.is(t)&&(t=t.data),"object"!==_typeof(t))return{};var e={};return Object.keys(t).forEach((function(n){"number"==typeof t[n]&&Number.isInteger(t[n])&&0!==t[n]&&(e[n]=t[n])})),e}},{key:"parseArgList",value:function(){var t=[].slice.call(arguments).flat(1/0);if(t.length%2!=0)throw new Error("item sets should be pairs of item IDs and numbers");var e={};return t.forEach((function(n,i){i%2==0&&(e[n]=t[i+1])})),e}},{key:"is",value:function(t){return t instanceof s}},{key:"emit",value:function(t,e){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};$(document).trigger(Object.assign({type:":inventory-"+t+".simple-inventory",inventory:e,target:null,delta:{},item:null},n))}},{key:"create",value:function(t,e){return new s(t,e)}}]),s}();setup.Inventory=s,window.Inventory=window.Inventory||s}(),function(){var t=setup.Item,e=setup.Inventory;function n(t){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null,i=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3&&void 0!==arguments[3]?arguments[3]:"Alert",a=arguments.length>4&&void 0!==arguments[4]?arguments[4]:"Are you sure?";if(!t||"function"!=typeof t)throw new Error("Invalid confirmation callback!");if(e.confirm)if("all"!==e.confirm||"all"===i)if("stack"!==e.confirm||i){var s={display:"inline-block",float:"right"},o=$(document.createElement("div")),u=$(document.createElement("p")).append(a),l=$(document.createElement("div")).addClass("confirmation-buttons"),c=$(document.createElement("button")).append("Okay").addClass("confirm-yes").css(Object.assign(s,{"margin-right":"0.5rem"})),d=$(document.createElement("button")).append("Cancel").addClass("confirm-no").css(s);t&&"function"==typeof t&&c.ariaClick(t),n&&"function"==typeof n&&d.ariaClick(n),l.append(d,c),o.append(u,l),Dialog.setup(r,"simple-inventory confirmation"),Dialog.append(o),Dialog.open()}else t();else t();else t()}function i(t){var e=$(document.createElement("span")).addClass("spacer");return t&&e.wiki(""+t),e}function r(t,i){var r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],a=arguments.length>3&&void 0!==arguments[3]?arguments[3]:null;return"give"===String(i).toLowerCase().trim()?i=e.strings.give:"take"===String(i).toLowerCase().trim()?i=e.strings.take:i&&"drop"!==String(i).toLowerCase().trim()||(i=e.strings.drop),$(document.createElement(r?"button":"a")).addClass("all-link drop-link").wiki(i+" all").ariaClick((function(){t.isEmpty()||n((function(){a&&e.is(a)?(a.merge(t),t.empty()):t.empty(),Dialog.close()}),(function(){Dialog.close()}),!0)}))}function a(a){var s,o=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{description:!0,use:!0,transfer:null,drop:!0,all:!0,stack:!0,dropActionText:"",classes:""},u=$(document.createElement("ul")).addClass("simple-inventory-list");if(a.length){if(s=a.list.map((function(r){var s=[],u=t.has(r)&&t.get(r).displayName?t.get(r).displayName:r;o.description&&t.has(r)&&t.get(r).description?s.push(function(n,i,r){var a=arguments.length>3&&void 0!==arguments[3]&&arguments[3];return r=r||e.strings.inspect,$(document.createElement(a?"button":"a")).addClass("inspect-link").wiki(""+i).ariaClick((function(){t.get(i).inspect()}))}(a,r,u)):s.push($(document.createElement("span")).append(t.has(r)?t.get(r).name:r).addClass("item-name")),s.push(function(t,n,i,r){var a=$(document.createElement("span")),s=t.count(n);return i=i||e.strings.stackPre,r=r||e.strings.stackPost,1==s?a.addClass("item-count single"):a.addClass("item-count multi"),a.append(""+i+(s||0)+r)}(a,r)),o.use&&t.has(r)&&t.get(r).handler?s.push(function(t,n,i){var r=arguments.length>3&&void 0!==arguments[3]&&arguments[3];return i=i||e.strings.use,$(document.createElement(r?"button":"a")).addClass("use-link").wiki(""+i).ariaClick((function(){t.use(n)}))}(a,r)):s.push(i()),(o.transfer&&e.is(o.transfer)||o.drop)&&!function(e){return t.has(e)&&t.get(e).permanent}(r)?(s.push(function(t,i,r){var a=arguments.length>3&&void 0!==arguments[3]&&arguments[3],s=arguments.length>4&&void 0!==arguments[4]?arguments[4]:null;return"give"===String(r).toLowerCase().trim()?r=e.strings.give:"take"===String(r).toLowerCase().trim()?r=e.strings.take:r&&"drop"!==String(r).toLowerCase().trim()||(r=e.strings.drop),$(document.createElement(a?"button":"a")).addClass("drop-link").wiki(""+r).ariaClick((function(){n((function(){s&&e.is(s)?t.transfer(s,i,1):t.drop(i,1),Dialog.close()}),(function(){Dialog.close()}))}))}(a,r,o.dropActionText,!1,o.transfer||null)),a.count(r)>1&&o.stack?s.push(function(t,i,r){var a=arguments.length>3&&void 0!==arguments[3]&&arguments[3],s=arguments.length>4&&void 0!==arguments[4]?arguments[4]:null;return"give"===String(r).toLowerCase().trim()?r=e.strings.give:"take"===String(r).toLowerCase().trim()?r=e.strings.take:r&&"drop"!==String(r).toLowerCase().trim()||(r=e.strings.drop),r=r+"&nbsp;"+e.strings.stack,$(document.createElement(a?"button":"a")).addClass("stack-link drop-link").wiki(""+r).ariaClick((function(){n((function(){s&&e.is(s)?t.transfer(s,i,t.count(i)):t.drop(i,t.count(i)),Dialog.close()}),(function(){Dialog.close()}))}))}(a,r,o.dropActionText,!1,o.transfer||null)):s.push(i())):s.push(i());var l=r.normalize().toLowerCase().replace(/\s+/g,"-");return $(document.createElement("li")).append(s).addClass("simple-inventory-listing").attr({"data-item-id":l,"data-keyword":u})})),o.all){var l=$(document.createElement("li")).addClass("all-listing simple-inventory-listing").append([i("&mdash;"),i(),i(),r(a,o.dropActionText,!1,o.transfer||null)]);s.push(l)}}else s=$(document.createElement("li")).addClass("simple-inventory-listing").append($(document.createElement("span")).wiki(e.emptyMessage));return u.append(s),u}e.prototype.interface=function(){var t,e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null,i=this,r=$(document.createElement("div")).addClass("simple-inventory-wrapper");return e.filter&&r.append(function(){var t=$(document.createElement("div")).addClass("simple-inventory-filter"),e=$(document.createElement("input")).attr({type:"text",placeholder:"Filter..."}).on("input",(function(){var n=e.val().trim().toLowerCase(),i=t.parent().find("ul.simple-inventory-list li.simple-inventory-listing:not(.all-listing)");n?i.each((function(t,e){var i=$(e);i&&i.length&&(i.attr("data-keyword").substring(0,n.length).trim().toLowerCase()!==n?i.hide():i.show())})):i.show()}));return t.append(e),t}()),r.append(a(this,e)),$(document).on(":inventory-update.simple-inventory.gui-built-in",(function(){r.length?r.empty().append(a(i,e)):$(document).off(":inventory-update.simple-inventory.gui-built-in")})),n&&n instanceof $?t=n:n&&(t=$(n)),t&&r.appendTo(t),r}}(),function(){setup.Inventory,setup.Item;var t=".simple-inventory-userland",e=":inventory-update.simple-inventory"+t,n=":inventory-use.simple-inventory"+t;function i(t){return t&&"function"==typeof t}Object.assign(setup.Inventory,{events:{update:{on:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"";i(t)&&$(document).on(e+n,t)},one:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"";i(t)&&$(document).one(e+n,t)},off:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"";$(document).off(e+t)}},use:{on:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"";i(t)&&$(document).on(n+e,t)},one:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:null,e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"";i(t)&&$(document).one(n+e,t)},off:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"";$(document).off(n+t)}}}})}(),function(){var t=":";function e(e){var n=function(t){return t.replace(/\r+/g,"\n").replace(/\n+/,"\n").replace(/ +/g," ").trim().split(/\n/g)}(e),i={};return n.forEach((function(e){if(e&&e.trim()&&e.includes(t)){var n=e.trim().split(t);i[n[0].trim()]=n[1].trim()}})),i}var n=function(t){try{return Story.has(t)?e(Story.get(t).text):{}}catch(t){return console.error(t.message,t),{}}}("inventory.strings");n.empty&&"string"==typeof n.empty&&n.empty.trim()&&(setup.Inventory.emptyMessage=n.empty,delete n.empty),setup.Inventory.strings=n||{}}(),function(){var t=setup.Item,e=setup.Inventory;function n(t){return t&&"string"==typeof t&&t.length>=2&&("$"===t[0]||"_"===t[0])}function i(t){if(n(t)&&(t=State.getVar(t)),e.is(t))return t}Macro.add(["item","consumable"],{tags:["description","tags","unique","permanent"],handler:function(){var e,n,i,r,a=null,s=!1,o=!1,u=!1;if(State.length>0)return this.error("items must be defined in `StoryInit` or story JavaScript!");if(!this.args[0]||"string"!=typeof this.args[0]||!this.args[0].trim())return this.error("invalid item ID");if(e=this.args[0].trim(),"consumable"===this.name&&(a=this.payload[0].contents||null,s=!0),this.args[1]&&(n=this.args[1]),this.payload.length>1){var l=this.payload.find((function(t){return"description"===t.name})),c=this.payload.find((function(t){return"tags"===t.name})),d=this.payload.find((function(t){return"unique"===t.name})),f=this.payload.find((function(t){return"permanent"===t.name}));l&&(i=l.contents.trim()),c&&(r=c.args.flat(1/0)),d&&(o=!0),f&&(u=!0)}t.add(e,{displayName:n||"",description:i||"",handler:a,consumable:s,unique:o,permanent:u},r)}}),Macro.add("newinv",{handler:function(){var t=this.args.raw.trim().split(" ").first().replace(/["']/g,"").trim();if(!n(t))return this.error("argument must be a story or temporary variable!");State.setVar(t,new e({},this.args.flat(1/0).slice(1)))}}),Macro.add(["pickup","drop"],{handler:function(){var t=i(this.args[0]);return t?this.args.length<3?this.error("no items to pick up were provided"):void t[this.name](this.args.slice(1)):this.error("first argument must be a valid inventory!")}}),Macro.add("dropall",{handler:function(){var t=i(this.args[0]);if(!t)return this.error("first argument must be a valid inventory!");t.empty()}}),Macro.add(["transfer","merge","unmerge"],{handler:function(){var t=i(this.args[0]);if(!t)return this.error("first argument must be a valid inventory!");var e=i(this.args[1]);if(!e)return this.error("second argument must be a valid inventory!");if("transfer"===this.name){if(this.args.length<4)return this.error("no items to transfer were provided");t.transfer(e,this.args.slice(2))}else t[this.name](e)}}),Macro.add(["inv","take","give"],{handler:function(){var t=null,n=i(this.args[0]);if(!n)return this.error("first argument must be a valid inventory!");this.args[1]&&i(this.args[1])&&(t=i(this.args[1]));var r={description:this.args.includesAny("inspect","description"),use:this.args.includes("use"),transfer:t,drop:this.args.includes("drop"),all:this.args.includes("all"),stack:this.args.includes("stack"),filter:this.args.includes("filter"),dropActionText:"inv"===this.name?"Drop":e.strings[this.name.trim().toLowerCase()],classes:"macro-".concat(this.name)};n.interface(r,$(this.output))}})}(),function(){var t=setup.Item,e=setup.Inventory;function n(t,e,n){if("object"!==_typeof(e))throw new TypeError("the extension should be a plain generic object holding the properties and methods you want to add");Object.keys(e).forEach((function(i){if(t[i]&&!n)throw new Error('Cannot override existing property "'+i+'"!');t[i]=e[i]}))}Object.assign(e,{extend:function(t){n(e,t,arguments.length>1&&void 0!==arguments[1]&&arguments[1])},extendPrototype:function(t){var i=arguments.length>1&&void 0!==arguments[1]&&arguments[1];n(e.prototype,t,i)}}),Object.assign(t,{extend:function(e){n(t,e,arguments.length>1&&void 0!==arguments[1]&&arguments[1])},extendPrototype:function(e){var i=arguments.length>1&&void 0!==arguments[1]&&arguments[1];n(t.prototype,e,i)}})}();
+// End Simple Inventory
+
+:: StoryStylesheet [stylesheet]
+/* Simple Inventory, for SugarCube 2, by Chapel
+v3.0.0, 2024-02-20, 1d95a49488446cafefaa956e53345395394e4b51 */
+ul.simple-inventory-list{margin:0 auto;padding:0}
+.simple-inventory-listing{list-style:none;padding:.3rem .3rem .3rem 1rem;display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr}
+.simple-inventory-listing:nth-child(2n){background-color:#000}
+.simple-inventory-listing>a,.simple-inventory-listing>span{display:inline-block}
+.all-listing.simple-inventory-listing{border-top:1px solid #fafafa;background-color:transparent}
+.drop-link{color:#e33}.drop-link:active,.drop-link:focus,.drop-link:hover{color:#f88}
+.simple-inventory-filter{text-align:right}
+.simple-inventory-filter input{display:inline-block}
+/* End Simple Inventory */
+
+.shopping-interface p {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
